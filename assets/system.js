@@ -25,7 +25,7 @@ function tick(){
 tick(); setInterval(tick, 1000);
 
 /* ---------- marquee ---------- */
-const MQ = [['Wild','coupe'],['Romantic','mark-heart'],['Joyful','disco'],['Casa Vila Verde','casa-vila-verde-sm'],['05 · 06 · 2027','rings'],['sempre amor','swallows'],['Lousada','sardine']];
+const MQ = [['Wild','coupe'],['Romantic','mark-heart'],['Joyful','disco'],['Made by hand','bow'],['05 · 06 · 2027','rings'],['sempre amor','swallows'],['DIY','sardine']];
 const one = MQ.map(([w, d]) => `<span>${w}<i>${DD[d] ? DD[d].svg : ''}</i></span>`).join('');
 $('#marq').innerHTML = one + one;
 
@@ -45,7 +45,7 @@ document.addEventListener('click', e => {
 
 /* ---------- toasts ---------- */
 const TI = { ok:['#A8C29E','mark-heart'], info:['#B8D5F3','envelope'], warn:['#FFD76A','mark-sparkle'], err:['#FFC4AD','mark-squiggle'] };
-const TT = { ok:['Lovely!','Your RSVP is in. See you in Lousada.'], info:['Invites are on their way','The dove is flying them over now.'], warn:['A little reminder','RSVPs close soon. Don’t forget the dietary notes.'], err:['Oops','That table is already full.'] };
+const TT = { ok:['Lovely!','Your RSVP is in. See you there!'], info:['Invites are on their way','The dove is flying them over now.'], warn:['A little reminder','RSVPs close soon. Don’t forget the dietary notes.'], err:['Oops','That table is already full.'] };
 function toast(type, title, text){
   const [bg, ic] = TI[type] || TI.info; const [t0, x0] = TT[type] || TT.info;
   const el = document.createElement('div'); el.className = 'toast';
@@ -73,7 +73,7 @@ function confetti(n = 90, ox){
   }
   setTimeout(() => box.remove(), 4200);
 }
-$('#yes').addEventListener('click', e => { confetti(120); toast('ok', 'Yay! 💐', 'See you on 5 June 2027 at Casa Vila Verde.'); });
+$('#yes').addEventListener('click', e => { confetti(120); toast('ok', 'Yay! 💐', 'See you on 5 June 2027.'); });
 
 /* loading button */
 $('#loadBtn').addEventListener('click', function(){
@@ -193,7 +193,7 @@ $('#iconGrid').addEventListener('click', e => {
 $('#ics').addEventListener('click', () => {
   const ics = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Marie and Andre//Dream Wedding//EN','BEGIN:VEVENT','UID:marie-andre-20270605@dream-wedding',
     'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z','DTSTART:20270605T123000Z','DTEND:20270605T230000Z',
-    'SUMMARY:Marie & André’s wedding','LOCATION:Casa Vila Verde\\, R. de Vila Verde 150\\, Caíde de Rei\\, Lousada\\, Portugal','DESCRIPTION:Ceremony at 13.30.','END:VEVENT','END:VCALENDAR'].join('\r\n');
+    'SUMMARY:Marie & André’s wedding','DESCRIPTION:Ceremony at 13.30. The address is on your invitation.','END:VEVENT','END:VCALENDAR'].join('\r\n');
   const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([ics], { type:'text/calendar' })); a.download = 'marie-andre-wedding.ics'; a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 800); toast('ok', 'Saved to your calendar', 'Saturday 5 June 2027, from 13.30.');
 });

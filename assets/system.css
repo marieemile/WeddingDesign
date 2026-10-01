@@ -383,3 +383,14 @@ body{position:relative}.blobs{position:absolute;inset:0;overflow:hidden;pointer-
 .paint.wide{grid-column:span 2}
 #mTabs button{flex:1;padding:10px 6px;font-size:14px}
 .paints{grid-auto-flow:dense}
+
+/* hero: DREAM, really big */
+h1.big{font-size:clamp(46px,6.4vw,88px)}
+h1.big .dreamline{margin:.02em 0 .04em -.04em;overflow:visible}
+h1.big .dream{display:inline-block;font:700 clamp(84px,13.6vw,190px)/.84 var(--serif);letter-spacing:-.035em;color:var(--peony);
+  -webkit-text-stroke:2.5px var(--fern);paint-order:stroke fill;text-shadow:7px 7px 0 var(--fern);transform:translateY(105%) rotate(-2deg)}
+h1.big .line:nth-child(2)>span.dream{animation:rise .9s var(--ease) .12s forwards,dreamy 5s ease-in-out 1.2s infinite}
+@keyframes dreamy{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(1deg) translateY(-6px);text-shadow:10px 11px 0 var(--fern)}}
+.lead b{color:var(--fern);font-weight:600;background:var(--butter);padding:0 .3em;border-radius:6px;border:1.5px solid var(--fern)}
+@media(max-width:560px){h1.big .dream{-webkit-text-stroke:1.8px var(--fern);text-shadow:4px 4px 0 var(--fern)}}
+h1.big .dreamline{margin-bottom:.14em}
