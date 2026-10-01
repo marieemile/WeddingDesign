@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Coupe with a bow
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Coupe with a bow">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M26 26 Q28 47 50 51"/>
+<path d="M50 51 Q72 47 74 26"/>
+<path d="M24 24 Q50 19 76 24"/>
+<path d="M31 34 Q50 31 69 34"/>
+<path d="M50 51 L50 74"/>
+<path d="M34 78 Q50 72 66 79"/>
+<path d="M50 60 q-9-6-13 0 q-2 8 9 8"/>
+<path d="M50 60 q9-6 13 0 q2 8-9 8"/>
+<path d="M48 63 q4 2 6 0"/>
+<path d="M47 69 L41 79"/><path d="M53 69 L59 79"/>
+<path d="M36 28 l1.5 0"/><path d="M48 25 l1.5 0"/><path d="M60 28 l1.5 0"/>  </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Grapes
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Grapes">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24 Q54 16 52 8"/>
+<path d="M52 10 Q40 2 26 7 Q37 16 50 17"/>
+<path d="M35 8 Q42 12 48 15"/>
+<path d="M32.8 24.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M44.2 24.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M55.8 24.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M67.2 24.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M38.5 35.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M50.0 35.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M61.5 35.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M38.5 46.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M50.0 46.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M61.5 46.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M44.2 57.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M55.8 57.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/><path d="M50.0 68.2 q-5.8 0-5.8 5.8 q0 5.8 5.8 5.8 q5.8 0 5.8-5.8 q0-5.8-5.8-5.8 z"/>  </g>
+</svg>

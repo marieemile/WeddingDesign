@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Calla lily
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Calla lily">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M46 60 Q28 48 32 28 Q38 12 56 13 Q74 17 72 34 Q69 48 56 55"/>
+<path d="M56 13 Q46 26 45 42 Q46 54 52 58"/>
+<path d="M72 34 Q66 21 56 13"/>
+<path d="M38 26 Q42 20 49 17"/>
+<path d="M50 22 L52 46"/>
+<path d="M50 22 q-3-1-3 2 q0 4 3 4 q4 0 4-4 q0-3-4-2z"/>
+<path d="M50 58 Q52 78 50 97"/>
+<path d="M51 76 Q39 73 33 63 Q45 65 50 74"/>  </g>
+</svg>

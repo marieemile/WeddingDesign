@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Heart sunglasses
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Heart sunglasses">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M31 63 C10 48 13 31 25 33 C30 34 31 39 32 43 C34 39 36 33 41 33 C52 33 53 49 31 63z"/>
+<path d="M69 63 C48 48 51 31 63 33 C68 34 69 39 70 43 C72 39 74 33 79 33 C90 33 91 49 69 63z"/>
+<path d="M45 41 Q50 37 55 41"/>
+<path d="M21 34 Q11 29 4 30"/>
+<path d="M79 34 Q89 29 96 30"/>
+<path d="M20 42 q5-6 11-4"/>
+<path d="M58 42 q5-6 11-4"/>  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Azulejo
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Azulejo">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M11 12 Q50 9 89 12 Q92 50 89 88 Q50 91 11 88 Q8 50 11 12z"/>
+<path d="M18 19 Q50 16 82 19 Q85 50 82 81 Q50 84 18 81 Q15 50 18 19z"/>
+<path d="M50 22 L78 50 L50 78 L22 50 z"/>
+<path d="M50 50 Q41 42 50 33 Q59 42 50 50z"/>
+<path d="M50 50 Q58 41 67 50 Q58 59 50 50z"/>
+<path d="M50 50 Q59 58 50 67 Q41 58 50 50z"/>
+<path d="M50 50 Q42 59 33 50 Q42 41 50 50z"/>
+<path d="M48 48 q3-1 4 2 q-1 3-4 2 q-2-2 0-4z"/>
+<path d="M50 22 l1.4 0"/><path d="M78 50 l1.4 0"/>
+<path d="M50 78 l1.4 0"/><path d="M22 50 l1.4 0"/>
+<path d="M20 21 q10 1 12 11"/><path d="M20 27 q6 1 7 6"/>
+<path d="M80 21 q-10 1-12 11"/><path d="M80 27 q-6 1-7 6"/>
+<path d="M20 79 q10-1 12-11"/><path d="M20 73 q6-1 7-6"/>
+<path d="M80 79 q-10-1-12-11"/><path d="M80 73 q-6-1-7-6"/>  </g>
+</svg>

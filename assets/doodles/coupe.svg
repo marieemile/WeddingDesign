@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Champagne coupe
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Champagne coupe">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M25 31 Q27 52 48 56"/>
+<path d="M48 56 Q69 52 71 30"/>
+<path d="M23 28 Q48 23 73 29"/>
+<path d="M29 39 Q48 35 67 38"/>
+<path d="M48 56 L48 77"/>
+<path d="M34 80 Q48 74 62 81"/>
+<path d="M34 33 l1.2 0"/><path d="M44 31 l1.2 0"/><path d="M56 32 l1.2 0"/>
+<path d="M53 45 l1.2 0"/><path d="M42 47 l1.2 0"/>
+<path d="M32 44 Q35 50 40 54"/>  </g>
+</svg>

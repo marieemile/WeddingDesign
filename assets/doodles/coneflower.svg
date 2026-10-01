@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Coneflower
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Coneflower">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M52.7 32.5 Q58.5 25.5 58.6 16.5 Q52.8 23.5 52.7 32.5z"/><path d="M56.4 35.2 Q64.9 32.4 69.9 24.9 Q61.3 27.6 56.4 35.2z"/><path d="M58.0 39.4 Q66.7 41.7 74.9 38.0 Q66.2 35.7 58.0 39.4z"/><path d="M57.1 43.8 Q63.1 50.4 72.0 51.8 Q66.0 45.1 57.1 43.8z"/><path d="M53.9 47.0 Q55.4 55.9 62.2 61.8 Q60.6 53.0 53.9 47.0z"/><path d="M49.5 48.0 Q46.0 56.3 48.4 64.9 Q51.9 56.7 49.5 48.0z"/><path d="M45.3 46.4 Q37.8 51.5 35.2 60.1 Q42.6 55.1 45.3 46.4z"/><path d="M42.5 42.9 Q33.5 43.1 26.6 48.9 Q35.7 48.7 42.5 42.9z"/><path d="M42.2 38.4 Q34.5 33.7 25.5 34.9 Q33.2 39.6 42.2 38.4z"/><path d="M44.3 34.4 Q40.3 26.3 32.2 22.5 Q36.1 30.6 44.3 34.4z"/><path d="M48.2 32.2 Q49.3 23.2 44.5 15.6 Q43.4 24.6 48.2 32.2z"/>
+<path d="M50 40 q-9-2-10 6 q-1 9 5 12 q7 2 10-5 q2-9-5-13z"/>
+<path d="M42 48 l1.4 0"/><path d="M48 44 l1.4 0"/><path d="M52 52 l1.4 0"/><path d="M46 56 l1.4 0"/>
+<path d="M52 58 Q54 78 52 96"/>
+<path d="M53 74 Q42 71 36 62 Q47 64 52 72"/>  </g>
+</svg>

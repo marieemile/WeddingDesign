@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Balloons
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Balloons">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M29 17 a13 13 0 1 0 0.1 0z"/><path d="M26 42 L29 47 L32 42"/><path d="M29 47 Q39.5 73 50 92"/><path d="M51 9 a14 14 0 1 0 0.1 0z"/><path d="M48 36 L51 41 L54 36"/><path d="M51 41 Q50.5 67 50 92"/><path d="M72 19 a13 13 0 1 0 0.1 0z"/><path d="M69 44 L72 49 L75 44"/><path d="M72 49 Q61.0 75 50 92"/>
+<path d="M50 92 q-5 3-7 7"/><path d="M50 92 q5 3 7 7"/>  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Place setting
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Place setting">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M33 12 L33 27"/><path d="M39 10 L39 27"/><path d="M45 12 L45 27"/>
+<path d="M31 27 Q39 34 47 27"/>
+<path d="M39 34 L37 86"/>
+<path d="M34 88 q4 3 7 0"/>
+<path d="M61 12 Q70 17 70 36 L64 44"/>
+<path d="M61 12 L61 40"/>
+<path d="M63 44 L63 86"/>
+<path d="M60 88 q4 3 7 0"/>
+<path d="M64 20 Q68 26 68 34"/>  </g>
+</svg>

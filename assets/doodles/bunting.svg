@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Bunting
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Bunting">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21 Q50 43 97 21"/><path d="M3.7 23.9 L15.7 23.9 L9.7 39.9 z"/><path d="M17.1 28.4 L29.1 28.4 L23.1 44.4 z"/><path d="M30.6 31.1 L42.6 31.1 L36.6 47.1 z"/><path d="M44.0 32.0 L56.0 32.0 L50.0 48.0 z"/><path d="M57.4 31.1 L69.4 31.1 L63.4 47.1 z"/><path d="M70.9 28.4 L82.9 28.4 L76.9 44.4 z"/><path d="M84.3 23.9 L96.3 23.9 L90.3 39.9 z"/>
+<path d="M3 21 q-3-4 1-6"/><path d="M97 21 q3-4-1-6"/>  </g>
+</svg>

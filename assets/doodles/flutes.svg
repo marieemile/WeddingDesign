@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Champagne flutes
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Champagne flutes">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M32 20 Q33 46 42 52"/>
+<path d="M42 52 Q50 47 49 20"/>
+<path d="M31 19 Q40 15 50 19"/>
+<path d="M34 30 Q40 27 47 30"/>
+<path d="M42 52 L40 76"/>
+<path d="M31 80 Q40 74 49 81"/>
+<path d="M53 20 Q52 47 60 52"/>
+<path d="M60 52 Q69 46 70 20"/>
+<path d="M52 19 Q61 15 71 19"/>
+<path d="M55 30 Q61 27 68 30"/>
+<path d="M60 52 L62 76"/>
+<path d="M53 80 Q62 74 71 81"/>
+<path d="M37 24 l1.2 0"/><path d="M44 34 l1.2 0"/>
+<path d="M58 25 l1.2 0"/><path d="M65 34 l1.2 0"/>
+<path d="M51 10 L51 3"/><path d="M42 12 L38 6"/><path d="M60 12 L64 6"/>  </g>
+</svg>

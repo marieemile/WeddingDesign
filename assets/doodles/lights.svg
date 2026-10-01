@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: String lights
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="String lights">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 19 Q34 41 64 24 Q80 15 97 21"/>
+<path d="M18.0 29.0 L18.0 33.0"/><path d="M18.0 33.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M17.4 38.0 l1.2 0"/><path d="M33.0 37.0 L33.0 41.0"/><path d="M33.0 41.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M32.4 46.0 l1.2 0"/><path d="M50.0 40.0 L50.0 44.0"/><path d="M50.0 44.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M49.4 49.0 l1.2 0"/><path d="M66.0 35.0 L66.0 39.0"/><path d="M66.0 39.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M65.4 44.0 l1.2 0"/><path d="M81.0 26.0 L81.0 30.0"/><path d="M81.0 30.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M80.4 35.0 l1.2 0"/>
+<path d="M3 33 Q30 56 58 41 Q78 30 97 35"/>
+<path d="M12.0 42.0 L12.0 46.0"/><path d="M12.0 46.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M11.4 51.0 l1.2 0"/><path d="M27.0 50.0 L27.0 54.0"/><path d="M27.0 54.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M26.4 59.0 l1.2 0"/><path d="M44.0 54.0 L44.0 58.0"/><path d="M44.0 58.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M43.4 63.0 l1.2 0"/><path d="M60.0 50.0 L60.0 54.0"/><path d="M60.0 54.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M59.4 59.0 l1.2 0"/><path d="M76.0 42.0 L76.0 46.0"/><path d="M76.0 46.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M75.4 51.0 l1.2 0"/><path d="M90.0 36.0 L90.0 40.0"/><path d="M90.0 40.0 q-4 1-4 5 q0 5 4 5 q4 0 4-5 q0-4-4-5z"/><path d="M89.4 45.0 l1.2 0"/>
+<path d="M6 14 q3-3 6-1"/><path d="M92 15 q3-2 5 1"/>  </g>
+</svg>

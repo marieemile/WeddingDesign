@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Café
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Café">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M22 39 Q49 35 76 39 L70 64 Q47 69 28 64 z"/>
+<path d="M22 39 Q49 46 76 39"/>
+<path d="M76 43 Q90 42 89 52 Q88 62 71 60"/>
+<path d="M28 44 Q49 50 70 44"/>
+<path d="M13 73 Q50 66 87 73 Q50 80 13 73z"/>
+<path d="M20 73 Q50 68 80 73"/>
+<path d="M37 27 Q33 20 39 12"/>
+<path d="M50 26 Q46 18 52 10"/>
+<path d="M63 27 Q59 20 65 13"/>
+<path d="M34 55 q4-2 7 1"/>  </g>
+</svg>

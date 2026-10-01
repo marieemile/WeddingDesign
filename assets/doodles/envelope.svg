@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: The letter
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="The letter">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 30 Q50 26 90 30 L88 71 Q50 77 12 71 z"/>
+<path d="M10 30 Q50 59 90 30"/>
+<path d="M12 70 Q29 55 37 48"/>
+<path d="M88 70 Q71 55 63 48"/>
+<path d="M50 45 q-8-8-8 0 q0 7 8 11 q9-4 9-11 q0-8-9 0z"/>
+<path d="M72 33 L72 42 L84 41 L84 32 z"/>
+<path d="M75 36 q4-1 6 1"/><path d="M75 39 q4-1 6 1"/>
+<path d="M14 34 q4-2 7 0"/>  </g>
+</svg>

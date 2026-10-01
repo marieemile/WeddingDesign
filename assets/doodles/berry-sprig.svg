@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Berry sprig
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Berry sprig">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 97 Q49 62 53 30 Q55 18 58 9"/>
+<path d="M50 58 L38 55"/>
+<path d="M33 55 a5.2 5.2 0 1 0 10.4 0 a5.2 5.2 0 1 0 -10.4 0z"/>
+<path d="M51 50 L64 47"/>
+<path d="M64 47 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z"/>
+<path d="M52 41 L41 37"/>
+<path d="M36 37 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z"/>
+<path d="M53 32 L64 28"/>
+<path d="M59 28 a4.6 4.6 0 1 0 9.2 0 a4.6 4.6 0 1 0 -9.2 0z"/>
+<path d="M55 23 L46 19"/>
+<path d="M41 19 a4.4 4.4 0 1 0 8.8 0 a4.4 4.4 0 1 0 -8.8 0z"/>
+<path d="M57 13 L64 11"/>
+<path d="M60 11 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0z"/>  </g>
+</svg>

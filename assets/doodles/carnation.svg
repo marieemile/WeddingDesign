@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Carnation
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Carnation">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 24 q10-6 15 2 q11 0 11 10 q8 6 2 14 q3 10-8 12 q-4 9-14 4 q-10 5-14-4 q-11-2-8-12 q-6-8 2-14 q0-10 11-10 q5-8 15-2z"/>
+<path d="M38 36 q7-6 12 0 q6-6 12 0"/>
+<path d="M34 48 q8-7 16 0 q8-7 16 0"/>
+<path d="M36 60 q7-6 14 0 q7-6 13 0"/>
+<path d="M42 68 q8 6 16 0"/>
+<path d="M44 66 L46 78"/><path d="M56 66 L54 78"/>
+<path d="M44 78 Q50 74 56 78 L54 84 Q50 87 46 84 z"/>
+<path d="M50 84 Q52 91 50 97"/>  </g>
+</svg>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Template Studio · Marie’s Dream Wedding</title>
+<meta name="description" content="Edit and print the wedding stationery: menus, signature drinks, table numbers, place cards, order of the day and the welcome sign.">
+<meta name="theme-color" content="#FAF7F2">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" crossorigin="anonymous" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Jost:wght@300;400;500&family=WindSong:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/kit.css">
+<link rel="stylesheet" href="assets/studio.css">
+<style id="pageSize"></style>
+</head>
+<body class="studio">
+
+<header class="bar">
+  <a href="index.html" aria-label="Marie’s Dream Wedding home"><span class="mk" data-logo></span></a>
+  <nav id="tpls" aria-label="Templates"></nav>
+  <a class="pill small ghost" href="kit.html">Brand kit</a>
+</header>
+
+<main class="st">
+  <aside class="panel" id="panel" aria-label="Edit the template"></aside>
+  <div class="stage" id="stage">
+    <div class="stage-top">
+      <div class="info" id="info"></div>
+      <div class="zoom seg" id="zoom"><button data-z="fit" class="on">Fit</button><button data-z="1">100%</button></div>
+    </div>
+    <div class="canvas" id="canvas"><div class="scaler" id="scaler"><div id="sheets"></div></div></div>
+    <div class="stage-bot">
+      <button class="pill" id="printBtn"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M4 6V2h8v4M4 12H2.5V6.5h11V12H12M4 9.5h8V14H4z"/></svg> Print or save as PDF</button>
+      <button class="pill ghost" id="pngBtn">Download PNG</button>
+      <button class="pill ghost" id="resetBtn">Reset</button>
+      <span class="hint" id="hint"></span>
+    </div>
+  </div>
+</main>
+<div id="printRoot" aria-hidden="true"></div>
+<div class="toast" id="toast"></div>
+
+<script src="data/kit-data.js"></script>
+<script src="data/painted.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.11/dist/html-to-image.js"></script>
+<script src="assets/studio.js"></script>
+</body>
+</html>

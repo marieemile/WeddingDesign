@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Tomatoes on the vine
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Tomatoes on the vine">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22 Q30 33 50 27 Q72 20 94 32"/>
+<path d="M17 28.5 L17 33.5"/><path d="M17.0 33.5 q-7.5 0-7.5 7.5 q0 7.5 7.5 7.5 q7.5 0 7.5-7.5 q0-7.5-7.5-7.5 z"/><path d="M12 34.5 L17 29.5 L22 34.5"/><path d="M34 38 L34 43"/><path d="M34.0 43.0 q-7.0 0-7.0 7.0 q0 7.0 7.0 7.0 q7.0 0 7.0-7.0 q0-7.0-7.0-7.0 z"/><path d="M29 44 L34 39 L39 44"/><path d="M51 28.5 L51 33.5"/><path d="M51.0 33.5 q-7.5 0-7.5 7.5 q0 7.5 7.5 7.5 q7.5 0 7.5-7.5 q0-7.5-7.5-7.5 z"/><path d="M46 34.5 L51 29.5 L56 34.5"/><path d="M68 39 L68 44"/><path d="M68.0 44.0 q-7.0 0-7.0 7.0 q0 7.0 7.0 7.0 q7.0 0 7.0-7.0 q0-7.0-7.0-7.0 z"/><path d="M63 45 L68 40 L73 45"/><path d="M84 31 L84 36"/><path d="M84.0 36.0 q-7.0 0-7.0 7.0 q0 7.0 7.0 7.0 q7.0 0 7.0-7.0 q0-7.0-7.0-7.0 z"/><path d="M79 37 L84 32 L89 37"/>
+<path d="M24 20 Q32 12 43 14 Q36 22 26 24"/>  </g>
+</svg>

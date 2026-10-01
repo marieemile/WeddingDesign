@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Olive oil
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Olive oil">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M44 7 Q50 5 56 7"/>
+<path d="M45 7 L45 13"/><path d="M55 7 L55 13"/>
+<path d="M45 13 Q50 15 55 13"/>
+<path d="M46 15 L46 40"/><path d="M54 15 L54 40"/>
+<path d="M46 40 Q37 46 36 58"/>
+<path d="M54 40 Q63 46 64 58"/>
+<path d="M36 58 L36 88"/><path d="M64 58 L64 88"/>
+<path d="M35 88 Q50 92 65 88"/>
+<path d="M38 63 Q50 60 62 63 L62 78 Q50 81 38 78 z"/>
+<path d="M43 69 Q50 67 57 69"/>
+<path d="M39 47 Q42 54 40 60"/>  </g>
+</svg>

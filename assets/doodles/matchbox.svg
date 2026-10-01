@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Matchbox
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Matchbox">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M18 54 Q46 48 72 54 L72 78 Q46 84 18 78 z"/>
+<path d="M18 54 Q46 60 72 54"/>
+<path d="M26 60 Q46 56 64 60 L64 74 Q46 78 26 74 z"/>
+<path d="M45 62 Q50 66 45 70 Q40 66 45 62z"/>
+<path d="M20 82 L24 86"/><path d="M28 84 L32 88"/><path d="M36 85 L40 89"/>
+<path d="M84 46 L74 78"/>
+<path d="M84 46 q-5-4-1-8 q6-2 7 3 q0 5-6 5z"/>
+<path d="M92 40 L96 34"/><path d="M78 38 L74 33"/>  </g>
+</svg>

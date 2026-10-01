@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Fluted coupe
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Fluted coupe">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M25 30 L30 52 Q50 58 70 52 L75 30"/>
+<path d="M23 28 Q50 23 77 28"/>
+<path d="M30 32 L33 51"/><path d="M38 33 L39 54"/><path d="M46 34 L46 56"/>
+<path d="M54 34 L54 56"/><path d="M62 33 L61 54"/><path d="M70 32 L67 51"/>
+<path d="M50 58 L50 76"/>
+<path d="M32 80 Q50 74 68 81"/>
+<path d="M38 81 Q50 77 62 81"/>  </g>
+</svg>

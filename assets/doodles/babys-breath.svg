@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Baby's breath
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Baby's breath">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 96 Q50 66 50 40"/>
+<path d="M50 60 Q36 56 28 44"/>
+<path d="M50 52 Q64 48 72 36"/>
+<path d="M50 44 Q40 38 34 26"/>
+<path d="M50 36 Q62 30 68 20"/>
+<path d="M50 28 Q50 20 50 14"/>
+<path d="M31.4 43.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M26.9 47.5 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M22.4 43.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M26.9 38.5 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M75.4 35.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M70.9 39.5 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M66.4 35.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M70.9 30.5 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M37.1 25.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M32.9 29.2 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M28.7 25.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M32.9 20.8 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M71.1 19.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M66.9 23.2 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M62.7 19.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M66.9 14.8 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M53.1 13.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M48.9 17.2 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M44.7 13.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M48.9 8.8 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/>
+<path d="M42 50 l1.3 0"/><path d="M58 42 l1.3 0"/>  </g>
+</svg>

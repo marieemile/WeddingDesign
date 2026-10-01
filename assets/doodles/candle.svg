@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Candlelight
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Candlelight">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 12 q-6-7 0-12 q7 6 0 12z"/>
+<path d="M50 10 q-3-4 0-7 q4 4 0 7z"/>
+<path d="M50 13 L50 18"/>
+<path d="M44 18 Q52 26 44 34 Q52 42 44 50 Q52 58 44 66"/>
+<path d="M56 18 Q48 26 56 34 Q48 42 56 50 Q48 58 56 66"/>
+<path d="M44 18 Q50 16 56 18"/>
+<path d="M45 30 Q50 32 55 30"/><path d="M45 46 Q50 48 55 46"/>
+<path d="M37 68 Q50 63 63 68 L58 77 Q50 80 42 77 z"/>
+<path d="M46 77 L46 85"/><path d="M54 77 L54 85"/>
+<path d="M43 81 Q50 78 57 81"/>
+<path d="M33 89 Q50 83 67 89 Q50 93 33 89z"/>
+<path d="M36 13 L29 10"/><path d="M64 13 L71 10"/>
+<path d="M32 22 L26 20"/><path d="M68 22 L74 20"/>  </g>
+</svg>

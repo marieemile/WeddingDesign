@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Leaf sprig
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Leaf sprig">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 96 Q46 64 56 34 Q62 18 70 8"/>
+<path d="M50 76 Q34 74 26 62 Q40 64 49 72"/>
+<path d="M49 72 Q40 70 33 64"/>
+<path d="M52 62 Q68 60 76 48 Q62 50 53 58"/>
+<path d="M53 58 Q62 56 69 50"/>
+<path d="M55 46 Q41 44 34 33 Q47 35 55 43"/>
+<path d="M55 43 Q47 41 40 35"/>
+<path d="M60 32 Q74 29 81 18 Q68 21 60 29"/>
+<path d="M60 29 Q68 27 75 21"/>
+<path d="M67 14 Q57 12 52 4 Q62 6 67 12"/>  </g>
+</svg>

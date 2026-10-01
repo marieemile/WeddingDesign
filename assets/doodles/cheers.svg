@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Cheers
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Cheers">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 30 Q16 51 33 54"/>
+<path d="M33 54 Q48 51 47 29"/>
+<path d="M11 28 Q30 24 49 28"/>
+<path d="M16 38 Q31 35 45 37"/>
+<path d="M33 54 L38 74"/>
+<path d="M28 77 Q39 72 50 78"/>
+<path d="M24 33 l1.2 0"/><path d="M31 31 l1.2 0"/><path d="M39 34 l1.2 0"/>
+<path d="M55 28 Q54 50 69 54"/>
+<path d="M69 54 Q86 51 89 30"/>
+<path d="M53 27 Q72 22 90 28"/>
+<path d="M58 37 Q72 34 85 36"/>
+<path d="M69 54 L64 74"/>
+<path d="M52 78 Q63 72 74 78"/>
+<path d="M64 31 l1.2 0"/><path d="M72 29 l1.2 0"/><path d="M80 33 l1.2 0"/>
+<path d="M51 17 L51 8"/><path d="M42 19 L37 11"/><path d="M61 19 L66 11"/>
+<path d="M45 11 l2 2"/><path d="M58 11 l-2 2"/>  </g>
+</svg>

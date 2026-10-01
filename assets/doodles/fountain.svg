@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: The fountain
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="The fountain">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 8 q-4 4-1 6 q3 2 4-2 q-1-4-3-4z"/>
+<path d="M46 14 Q50 12 54 14 L53 20 Q50 22 47 20 z"/>
+<path d="M38 24 Q50 20 62 24 Q57 31 50 31 Q43 31 38 24z"/>
+<path d="M42 31 q-1 6 0 10"/><path d="M50 32 q-1 7 0 11"/><path d="M58 31 q1 6 0 10"/>
+<path d="M46 31 L46 40"/><path d="M54 31 L54 40"/>
+<path d="M28 44 Q50 38 72 44 Q64 56 50 56 Q36 56 28 44z"/>
+<path d="M33 50 q-1 8 0 13"/><path d="M42 54 q-1 9 0 14"/>
+<path d="M58 54 q1 9 0 14"/><path d="M67 50 q1 8 0 13"/>
+<path d="M50 56 L50 66"/>
+<path d="M16 70 Q50 62 84 70 Q72 82 50 82 Q28 82 16 70z"/>
+<path d="M23 74 Q50 68 77 74"/>
+<path d="M28 86 Q50 80 72 86 Q50 92 28 86z"/>  </g>
+</svg>

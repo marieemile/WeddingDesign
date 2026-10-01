@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Wobbly rectangle
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" role="img" aria-label="Wobbly rectangle">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13 Q70 6 130 12 Q192 18 250 9"/>
+<path d="M250 9 Q256 55 251 97 Q246 137 250 172"/>
+<path d="M250 172 Q190 179 130 172 Q68 165 11 173"/>
+<path d="M11 173 Q5 128 10 90 Q15 47 10 13"/>  </g>
+</svg>

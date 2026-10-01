@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Disco ball
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Disco ball">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 3 L50 13"/>
+<path d="M46 13 Q50 11 54 13 L54 18 Q50 21 46 18 z"/>
+<path d="M50 21 q-28 2-28 30 q0 29 28 31 q28-2 28-31 q0-28-28-30z"/>
+<path d="M23 41 Q50 48 77 41"/>
+<path d="M22 52 Q50 46 78 52"/>
+<path d="M23 63 Q50 70 77 63"/>
+<path d="M50 21 L50 82"/>
+<path d="M36 24 Q31 52 36 79"/>
+<path d="M64 24 Q69 52 64 79"/>
+<path d="M15 28 L5 21"/><path d="M85 28 L95 21"/>
+<path d="M15 75 L5 82"/><path d="M85 75 L95 82"/>
+<path d="M9 52 L2 52"/><path d="M91 52 L98 52"/>  </g>
+</svg>

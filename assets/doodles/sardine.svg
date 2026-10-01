@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Sardines
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Sardines">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M17 40 Q40 29 62 39 Q40 50 17 40z"/>
+<path d="M62 39 L77 31"/><path d="M62 40 L77 48"/>
+<path d="M77 31 Q74 40 77 48"/>
+<path d="M24 38 l1.2 0"/>
+<path d="M30 33 Q33 40 30 46"/>
+<path d="M38 33 L38 45"/><path d="M45 32 L45 46"/><path d="M52 34 L52 44"/>
+<path d="M35 30 Q42 26 50 31"/>
+<path d="M23 63 Q46 52 68 62 Q46 73 23 63z"/>
+<path d="M68 62 L83 54"/><path d="M68 63 L83 71"/>
+<path d="M83 54 Q80 63 83 71"/>
+<path d="M30 61 l1.2 0"/>
+<path d="M36 56 Q39 63 36 69"/>
+<path d="M44 56 L44 68"/><path d="M51 55 L51 69"/><path d="M58 57 L58 67"/>
+<path d="M41 53 Q48 49 56 54"/>
+<path d="M8 78 Q18 73 21 82 Q13 87 8 78z"/>
+<path d="M10 79 L19 84"/><path d="M14 76 L15 85"/>  </g>
+</svg>

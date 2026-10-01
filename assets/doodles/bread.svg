@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Broa
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Broa">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M13 71 Q12 41 50 36 Q88 41 87 71 Q50 79 13 71z"/>
+<path d="M14 70 Q50 76 86 70"/>
+<path d="M22 58 Q22 46 33 41"/>
+<path d="M40 47 L61 55"/>
+<path d="M59 46 L42 56"/>
+<path d="M25 62 q4-2 7 1"/>
+<path d="M68 60 q4 2 7-1"/>
+<path d="M47 66 q4-2 7 1"/>
+<path d="M32 45 l1.2 0"/><path d="M67 47 l1.2 0"/><path d="M50 41 l1.2 0"/>
+<path d="M5 80 l1.5 1"/><path d="M94 78 l1.5 1"/>  </g>
+</svg>

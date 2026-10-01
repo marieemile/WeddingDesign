@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Cosmos
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Cosmos">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50.0 36.0 Q57.0 27.0 53.2 18.0 Q50.0 19.1 46.8 18.0 Q43.0 27.0 50.0 36.0z"/><path d="M55.7 38.3 Q67.0 36.9 70.6 27.9 Q67.6 26.4 66.1 23.4 Q57.1 27.0 55.7 38.3z"/><path d="M58.0 44.0 Q67.0 51.0 76.0 47.2 Q74.9 44.0 76.0 40.8 Q67.0 37.0 58.0 44.0z"/><path d="M55.7 49.7 Q57.1 61.0 66.1 64.6 Q67.6 61.6 70.6 60.1 Q67.0 51.1 55.7 49.7z"/><path d="M50.0 52.0 Q43.0 61.0 46.8 70.0 Q50.0 68.9 53.2 70.0 Q57.0 61.0 50.0 52.0z"/><path d="M44.3 49.7 Q33.0 51.1 29.4 60.1 Q32.4 61.6 33.9 64.6 Q42.9 61.0 44.3 49.7z"/><path d="M42.0 44.0 Q33.0 37.0 24.0 40.8 Q25.1 44.0 24.0 47.2 Q33.0 51.0 42.0 44.0z"/><path d="M44.3 38.3 Q42.9 27.0 33.9 23.4 Q32.4 26.4 29.4 27.9 Q33.0 36.9 44.3 38.3z"/>
+<path d="M50 44 q-7 0-7 6 q0 7 7 7 q7 0 7-7 q0-6-7-6z"/>
+<path d="M51.9 44.0 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M49.8 46.9 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M46.5 45.8 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M46.5 42.2 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/><path d="M49.8 41.1 a1.1 1.1 0 1 0 2.2 0 a1.1 1.1 0 1 0 -2.2 0z"/>
+<path d="M50 57 Q53 76 50 94"/>
+<path d="M52 72 Q63 69 68 60 Q57 62 51 70"/>  </g>
+</svg>

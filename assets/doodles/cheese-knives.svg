@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Cheese knives
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Cheese knives">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M20 66 L20 88"/>
+<path d="M15 88 q5 4 10 0"/>
+<path d="M16 66 Q20 63 24 66"/>
+<path d="M20 63 q-11-1-11-13 q0-15 11-18 q11 3 11 18 q0 12-11 13z"/>
+<path d="M20 40 q-4 0-4 4 q0 5 4 5 q5 0 5-5 q0-4-5-4z"/>
+<path d="M50 66 L50 88"/>
+<path d="M45 88 q5 4 10 0"/>
+<path d="M46 66 Q50 63 54 66"/>
+<path d="M50 63 L42 36 L50 28 L58 36 L50 63z"/>
+<path d="M50 32 L50 60"/>
+<path d="M80 66 L80 88"/>
+<path d="M75 88 q5 4 10 0"/>
+<path d="M76 66 Q80 63 84 66"/>
+<path d="M72 63 L72 34 Q80 30 88 34 L88 63 Q80 66 72 63z"/>
+<path d="M74 34 L74 26"/><path d="M80 32 L80 24"/><path d="M86 34 L86 26"/>  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: The cake · small
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="The cake · small">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M33 37 Q50 33 67 37 L67 50 Q50 54 33 50 z"/>
+<path d="M26 52 Q50 48 74 52 L74 67 Q50 72 26 67 z"/>
+<path d="M17 69 Q50 65 83 69 L83 85 Q50 90 17 85 z"/>
+<path d="M34 39 q8 8 16 0 q8 8 15 1"/>
+<path d="M27 54 q9 9 18 0 q9 9 17 1"/>
+<path d="M18 71 q11 10 21 0 q11 10 21 0 q7 7 12 1"/>
+<path d="M28 94 Q50 89 72 94"/>
+<path d="M40 87 L37 93"/><path d="M60 87 L63 93"/>
+<path d="M45 33 q-3-6 3-7 q6 1 5 7"/>  </g>
+</svg>

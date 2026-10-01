@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Champagne tower
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Champagne tower">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14.8 68.8 Q15.8 78.3 26 79.1"/><path d="M26 79.1 Q36.2 78.3 37.2 68.8"/><path d="M13.8 67.9 Q26 65.4 38.2 67.9"/><path d="M26 79.1 L26 84.3"/><path d="M20.8 86 Q26 83.4 31.2 86"/><path d="M38.8 68.8 Q39.8 78.3 50 79.1"/><path d="M50 79.1 Q60.2 78.3 61.2 68.8"/><path d="M37.8 67.9 Q50 65.4 62.2 67.9"/><path d="M50 79.1 L50 84.3"/><path d="M44.8 86 Q50 83.4 55.2 86"/><path d="M62.8 68.8 Q63.8 78.3 74 79.1"/><path d="M74 79.1 Q84.2 78.3 85.2 68.8"/><path d="M61.8 67.9 Q74 65.4 86.2 67.9"/><path d="M74 79.1 L74 84.3"/><path d="M68.8 86 Q74 83.4 79.2 86"/><path d="M26.8 46.8 Q27.8 56.3 38 57.1"/><path d="M38 57.1 Q48.2 56.3 49.2 46.8"/><path d="M25.8 45.9 Q38 43.4 50.2 45.9"/><path d="M38 57.1 L38 62.3"/><path d="M32.8 64 Q38 61.4 43.2 64"/><path d="M50.8 46.8 Q51.8 56.3 62 57.1"/><path d="M62 57.1 Q72.2 56.3 73.2 46.8"/><path d="M49.8 45.9 Q62 43.4 74.2 45.9"/><path d="M62 57.1 L62 62.3"/><path d="M56.8 64 Q62 61.4 67.2 64"/><path d="M38.8 24.8 Q39.8 34.3 50 35.1"/><path d="M50 35.1 Q60.2 34.3 61.2 24.8"/><path d="M37.8 23.9 Q50 21.4 62.2 23.9"/><path d="M50 35.1 L50 40.3"/><path d="M44.8 42 Q50 39.4 55.2 42"/><path d="M50 8 L50 15"/><path d="M41 11 L37 5"/><path d="M59 11 L63 5"/>  </g>
+</svg>

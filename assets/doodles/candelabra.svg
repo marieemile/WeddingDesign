@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Candelabra
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Candelabra">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 8 q-5-6 0-11 q6 6 0 11z"/>
+<path d="M50 10 L50 16"/>
+<path d="M44 16 L44 34"/><path d="M56 16 L56 34"/>
+<path d="M22 20 q-4-5 0-9 q5 5 0 9z"/>
+<path d="M22 22 L22 27"/>
+<path d="M18 27 L18 40"/><path d="M26 27 L26 40"/>
+<path d="M78 20 q-4-5 0-9 q5 5 0 9z"/>
+<path d="M78 22 L78 27"/>
+<path d="M74 27 L74 40"/><path d="M82 27 L82 40"/>
+<path d="M13 42 Q22 38 31 42 Q26 47 22 47 Q18 47 13 42z"/>
+<path d="M69 42 Q78 38 87 42 Q82 47 78 47 Q74 47 69 42z"/>
+<path d="M39 36 Q50 32 61 36 Q55 42 50 42 Q45 42 39 36z"/>
+<path d="M22 47 Q30 54 44 50"/>
+<path d="M78 47 Q70 54 56 50"/>
+<path d="M50 42 L50 60"/>
+<path d="M43 52 Q50 48 57 52 Q50 57 43 52z"/>
+<path d="M46 60 Q50 63 54 60"/>
+<path d="M47 63 L47 76"/><path d="M53 63 L53 76"/>
+<path d="M44 70 Q50 67 56 70"/>
+<path d="M34 84 Q50 78 66 84 Q50 90 34 84z"/>
+<path d="M40 78 Q50 74 60 78 L58 82 Q50 85 42 82 z"/>  </g>
+</svg>

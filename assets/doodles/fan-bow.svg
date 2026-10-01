@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: The fan
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="The fan">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 80 L22 32"/>
+<path d="M50 80 L34 24"/>
+<path d="M50 80 L50 20"/>
+<path d="M50 80 L66 24"/>
+<path d="M50 80 L78 32"/>
+<path d="M22 32 Q50 10 78 32"/>
+<path d="M30 46 Q50 28 70 46"/>
+<path d="M38 60 Q50 50 62 60"/>
+<path d="M50 80 q-5 0-5 5 q0 5 5 5 q5 0 5-5 q0-5-5-5z"/>
+<path d="M49 84 l1.5 0"/>  </g>
+</svg>

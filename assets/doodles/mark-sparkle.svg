@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Sparkle
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Sparkle">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 12 Q55 42 84 50 Q55 58 50 88 Q45 58 16 50 Q45 42 50 12z"/>
+<path d="M79 20 Q81 27 88 29 Q81 31 79 38 Q77 31 70 29 Q77 27 79 20z"/>
+<path d="M22 68 Q24 74 30 76 Q24 78 22 84 Q20 78 14 76 Q20 74 22 68z"/>  </g>
+</svg>

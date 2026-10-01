@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Bow-tied frame
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 200" role="img" aria-label="Bow-tied frame">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 41 Q70 34 130 39 Q192 45 240 38"/>
+<path d="M240 38 Q246 90 241 136 Q236 174 240 191"/>
+<path d="M240 191 Q190 198 130 191 Q68 184 21 192"/>
+<path d="M21 192 Q15 140 20 96 Q25 60 20 41"/>
+<path d="M130 39 Q114 15 101 21 Q91 29 104 36 Q117 41 130 38"/>
+<path d="M128 38 Q116 22 105 26 Q98 31 106 35 Q117 39 127 38"/>
+<path d="M130 39 Q146 15 159 21 Q169 29 156 36 Q143 41 130 38"/>
+<path d="M132 38 Q144 22 155 26 Q162 31 154 35 Q143 39 133 38"/>
+<path d="M129 36 q-4 2-3 5 q2 3 4 3 q4-1 4-4 q0-3-3-4z"/>
+<path d="M126 44 Q120 56 113 67"/>
+<path d="M131 44 Q127 57 121 69"/>
+<path d="M113 67 L117 64 L121 69"/>
+<path d="M133 44 Q140 55 147 66"/>
+<path d="M137 45 Q145 57 152 68"/>
+<path d="M147 66 L152 63 L152 68"/>  </g>
+</svg>

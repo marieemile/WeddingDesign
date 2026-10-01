@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Highball
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Highball">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M32 26 L37 84 Q50 88 63 84 L68 26"/>
+<path d="M30 25 Q50 20 70 25"/>
+<path d="M34 40 Q50 46 66 40"/>
+<path d="M59 14 L55 44"/>
+<path d="M39 49 L47 47 L49 55 L41 57 z"/>
+<path d="M52 57 L60 55 L62 63 L54 65 z"/>
+<path d="M40 70 L41 83"/><path d="M47 71 L47 85"/>
+<path d="M54 71 L54 85"/><path d="M61 70 L60 83"/>
+<path d="M44 31 l1.5 0"/><path d="M56 33 l1.5 0"/>  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: The getaway car
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="The getaway car">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 62 Q14 50 26 48 Q34 34 50 33 Q66 33 74 47 Q86 49 88 62"/>
+<path d="M12 62 L12 72 Q50 76 88 72 L88 62"/>
+<path d="M11 72 Q50 77 89 72"/>
+<path d="M30 48 Q37 38 50 37 Q63 37 70 47 Q50 51 30 48z"/>
+<path d="M50 37 L50 49"/>
+<path d="M24 76 q-7 0-7 7 q0 8 7 8 q8 0 8-8 q0-7-8-7z"/>
+<path d="M24 81 q-2 0-2 2 q0 3 2 3 q3 0 3-3 q0-2-3-2z"/>
+<path d="M76 76 q-7 0-7 7 q0 8 7 8 q8 0 8-8 q0-7-8-7z"/>
+<path d="M76 81 q-2 0-2 2 q0 3 2 3 q3 0 3-3 q0-2-3-2z"/>
+<path d="M16 60 L24 60"/><path d="M82 59 L89 59"/>
+<path d="M60 55 q-8-6-13 0 q-2 8 8 8"/>
+<path d="M60 55 q8-6 13 0 q2 8-8 8"/>
+<path d="M64 58 q3 2 6 0"/>
+<path d="M64 64 L58 74"/><path d="M68 64 L74 74"/>  </g>
+</svg>

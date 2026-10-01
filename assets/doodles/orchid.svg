@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Orchid
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Orchid">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 38 Q40 24 50 13 Q60 24 50 38z"/>
+<path d="M46 44 Q28 35 20 46 Q23 58 38 56 Q44 52 47 46z"/>
+<path d="M54 44 Q72 35 80 46 Q77 58 62 56 Q56 52 53 46z"/>
+<path d="M47 53 Q36 65 40 76 Q48 75 50 62z"/>
+<path d="M53 53 Q64 65 60 76 Q52 75 50 62z"/>
+<path d="M50 55 q-6 2-6 7 q0 6 6 6 q7 0 7-6 q0-5-7-7z"/>
+<path d="M48 49 l1.4 0"/>
+<path d="M32 44 Q38 47 44 49"/><path d="M68 44 Q62 47 56 49"/>
+<path d="M50 76 Q52 88 50 97"/>  </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Fish platter
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Fish platter">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 50 q4-9 13-11 q8-9 19-8 q12-6 24-3 q13-2 21 6 q11 3 11 13 q1 10-9 14 q-7 9-19 9 q-12 5-24 2 q-13 1-22-7 q-13-4-14-15z"/>
+<path d="M14 50 Q50 34 86 50 Q50 66 14 50z"/>
+<path d="M25 51 Q42 41 59 49 Q42 59 25 51z"/>
+<path d="M59 49 L72 42"/><path d="M59 50 L72 57"/>
+<path d="M72 42 Q69 50 72 57"/>
+<path d="M31 49 l1.2 0"/>
+<path d="M36 44 Q39 51 36 57"/>
+<path d="M43 44 L43 56"/><path d="M50 43 L50 57"/>
+<path d="M40 41 Q47 37 54 41"/>  </g>
+</svg>

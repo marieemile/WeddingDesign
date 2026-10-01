@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Wishing star
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Wishing star">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 11 L58 37 L86 38 L63 55 L71 82 L49 66 L27 81 L36 54 L14 37 L42 37 Z"/>
+<path d="M89.9 62.0 L96.6 64.1"/><path d="M74.7 83.0 L78.8 88.6"/><path d="M50.0 91.0 L50.0 98.0"/><path d="M25.3 83.0 L21.2 88.6"/><path d="M10.1 62.0 L3.4 64.1"/><path d="M10.1 36.0 L3.4 33.9"/><path d="M25.3 15.0 L21.2 9.4"/><path d="M50.0 7.0 L50.0 0.0"/><path d="M74.7 15.0 L78.8 9.4"/><path d="M89.9 36.0 L96.6 33.9"/>
+<path d="M43 44 q3-4 5 0"/>
+<path d="M54 44 q3-4 5 0"/>
+<path d="M44 53 q6 6 12 0"/>
+<path d="M38 50 q2-2 4 0"/><path d="M58 50 q2-2 4 0"/>  </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Bloom
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Bloom">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 34 q-12-15-19-4 q-6 11 9 15 q-16 4-11 16 q7 11 17-4 q-2 17 11 17 q12 0 10-17 q11 15 17 4 q5-12-11-16 q15-4 9-15 q-7-11-19 4z"/>
+<path d="M50 45 q-6 3-6 7 q0 5 6 6 q7-1 7-6 q0-4-7-7z"/>
+<path d="M48 51 l1.5 0"/>
+<path d="M50 68 L50 82"/>  </g>
+</svg>

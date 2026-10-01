@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Wine glass
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Wine glass">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M31 26 Q29 51 50 55"/>
+<path d="M50 55 Q71 51 69 26"/>
+<path d="M29 25 Q50 20 71 25"/>
+<path d="M34 39 Q50 36 66 39"/>
+<path d="M39 45 Q47 50 56 45"/>
+<path d="M50 55 L50 78"/>
+<path d="M35 82 Q50 76 65 83"/>
+<path d="M41 83 Q50 79 59 83"/>  </g>
+</svg>

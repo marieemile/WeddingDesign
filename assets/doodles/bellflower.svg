@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Bellflower
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Bellflower">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M40 30 Q50 24 60 30 Q62 48 56 60 Q50 65 44 60 Q38 48 40 30z"/>
+<path d="M40 30 Q50 36 60 30"/>
+<path d="M46 58 q4 5 8 0"/>
+<path d="M44 44 Q50 48 56 44"/>
+<path d="M50 24 L50 14"/>
+<path d="M50 63 Q52 80 50 96"/>
+<path d="M51 76 Q40 73 34 64 Q45 66 50 74"/>
+<path d="M44 26 q-6-4-4-9 q6 1 7 7"/>  </g>
+</svg>

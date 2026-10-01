@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Parasol drink
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Parasol drink">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M32 44 L37 82 Q50 87 63 82 L68 44"/>
+<path d="M30 43 Q50 38 70 43"/>
+<path d="M35 56 Q50 61 65 56"/>
+<path d="M39 62 L47 60 L49 68 L41 70 z"/>
+<path d="M52 70 L60 68 L62 76 L54 78 z"/>
+<path d="M72 18 L54 50"/>
+<path d="M54 20 Q72 8 90 20 Q72 30 54 20z"/>
+<path d="M56 20 Q72 24 88 20"/>
+<path d="M66 12 L64 26"/><path d="M78 13 L76 26"/>
+<path d="M60 22 L57 48"/>  </g>
+</svg>

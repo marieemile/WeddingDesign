@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Confetti popper
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Confetti popper">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 82 L30 58 L46 68 L30 92 z"/>
+<path d="M30 58 Q38 61 46 68"/>
+<path d="M18 76 L38 88"/>
+<path d="M46 62 Q62 46 80 40"/>
+<path d="M50 70 Q68 62 88 60"/>
+<path d="M44 54 Q54 34 62 22"/>
+<path d="M58 30 L66 34 L62 42 L54 38 z"/>
+<path d="M74 24 L82 26 L80 34 L72 32 z"/>
+<path d="M84 46 L91 49 L88 56 L81 53 z"/>
+<path d="M68 50 l1.6 0"/><path d="M78 38 l1.6 0"/><path d="M88 34 l1.6 0"/>  </g>
+</svg>

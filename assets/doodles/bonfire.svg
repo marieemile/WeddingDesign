@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Bonfire
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Bonfire">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M18 84 L60 70"/>
+<path d="M20 78 Q40 82 62 86"/>
+<path d="M78 80 L44 72"/>
+<path d="M16 84 q-3-3 0-5"/><path d="M62 86 q3 2 1 4"/>
+<path d="M39 68 Q30 52 39 38 Q43 49 48 42 Q52 28 57 42 Q61 51 63 40 Q70 55 61 68 Q50 74 39 68z"/>
+<path d="M45 64 Q41 54 47 47 Q51 55 53 49 Q57 57 53 64 Q49 68 45 64z"/>
+<path d="M34 32 L30 25"/><path d="M50 24 L50 16"/><path d="M66 31 L71 24"/>
+<path d="M42 22 l1.4 0"/><path d="M60 20 l1.4 0"/>  </g>
+</svg>

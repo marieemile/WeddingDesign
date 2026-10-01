@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Scalloped oval
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" role="img" aria-label="Scalloped oval">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M130 13 q17-10 28 3 q18-8 26 8 q19-3 22 15 q18 2 16 20 q16 7 9 24 q13 12 2 25 q9 15-6 22 q3 17-15 19 q-3 17-21 12 q-10 14-25 5 q-14 11-26 1 q-14 8-25-5 q-17 4-21-12 q-18-2-15-19 q-15-7-6-22 q-11-13 2-25 q-7-17 9-24 q-2-18 16-20 q3-18 22-15 q8-16 26-8 q11-13 28-3z"/>
+<path d="M130 30 l1.5 0"/><path d="M130 152 l1.5 0"/>
+<path d="M40 91 l1.5 0"/><path d="M220 91 l1.5 0"/>  </g>
+</svg>

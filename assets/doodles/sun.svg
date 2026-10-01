@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Marie & Andre wedding doodle: Sun
+     Monoline, no fill, one ink. Recolour via the stroke value below.
+     Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
+     Couple figures: stroke 1.5, and 35mm minimum. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Sun">
+  <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M50 26 q-21 2-21 23 q0 22 21 24 q22-2 22-24 q0-21-22-23z"/>
+<path d="M74.0 50.0 L86.0 50.0"/><path d="M67.0 67.0 L75.5 75.5"/><path d="M50.0 74.0 L50.0 86.0"/><path d="M33.0 67.0 L24.5 75.5"/><path d="M26.0 50.0 L14.0 50.0"/><path d="M33.0 33.0 L24.5 24.5"/><path d="M50.0 26.0 L50.0 14.0"/><path d="M67.0 33.0 L75.5 24.5"/><path d="M72.2 59.2 L78.6 61.9"/><path d="M59.2 72.2 L61.9 78.6"/><path d="M40.8 72.2 L38.1 78.6"/><path d="M27.8 59.2 L21.4 61.9"/><path d="M27.8 40.8 L21.4 38.1"/><path d="M40.8 27.8 L38.1 21.4"/><path d="M59.2 27.8 L61.9 21.4"/><path d="M72.2 40.8 L78.6 38.1"/>
+<path d="M41 45 q3-4 6 0"/>
+<path d="M53 45 q3-4 6 0"/>
+<path d="M42 57 q8 7 16 0"/>
+<path d="M36 52 q3-2 5 0"/><path d="M59 52 q3-2 5 0"/>  </g>
+</svg>
