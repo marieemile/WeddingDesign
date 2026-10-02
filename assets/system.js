@@ -168,7 +168,7 @@ if (DA) {
   $('#fanFront').innerHTML = DA.front; $('#fanBack').innerHTML = DA.back; $('#signFrame').innerHTML = DA.sign;
   const flip = () => $('#fanFlip').classList.toggle('flipped');
   $('#fanFlip').addEventListener('click', flip); $('#fanBtn').addEventListener('click', flip);
-  const TL = [['14:30','casa-vila-verde-sm','Guests arrive','Chegada dos convidados'],['15:00','rings','Ceremony','Cerimónia'],['16:00','cheers','Drinks & canapés','Aperitivos'],
+  const TL = [['14:30','the-house-sm','Guests arrive','Chegada dos convidados'],['15:00','rings','Ceremony','Cerimónia'],['16:00','cheers','Drinks & canapés','Aperitivos'],
     ['17:00','sun','Golden-hour photos','Fotografias ao fim da tarde'],['19:00','fork-knife','Dinner & speeches','Jantar e discursos'],['21:00','cake','Cutting the cake','Corte do bolo',1],
     ['21:30','record-player','First dance','Primeira dança',1],['& then','disco','Party till late','Festa até tarde']];
   $('#tl').innerHTML = TL.map(([t, d, en, pt, tbc]) => `<li><span class="t">${t}</span><span class="d">${DD[d] ? DD[d].svg : ''}</span><span><b>${en}${tbc ? '<span class="tbc">TBC</span>' : ''}</b><small>${pt}</small></span></li>`).join('');
@@ -220,7 +220,7 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') { dd.classLi
 /* ---------- icon grid ---------- */
 const ICONS = ['coupe','cheers','flutes','wine-glass','martini','highball','bottle','olives','sardine','fish-platter','bread','cherries','grapes','tomatoes','cake','macarons','cafe','fork-knife',
   'rings','ring-ribbon','envelope','dove-letter','bow','swallows','heart-glasses','car-bow','sun','star','disco','lights','bunting','balloons','popper','sparkler','candle','record-player',
-  'daisy','peony','poppy','cosmos','chamomile','bouquet','azulejo','casa-vila-verde','fountain','mark-heart','mark-sparkle','mark-bloom'];
+  'daisy','peony','poppy','cosmos','chamomile','bouquet','azulejo','the-house','fountain','mark-heart','mark-sparkle','mark-bloom'];
 $('#iconGrid').innerHTML = ICONS.filter(s => DD[s]).map(s => `<button class="ico" data-copy="${s}" title="${DD[s].cap}" aria-label="Copy ${DD[s].cap}">${DD[s].svg}</button>`).join('');
 $('#iconGrid').addEventListener('click', e => {
   const b = e.target.closest('[data-copy]'); if (!b) return; const d = DD[b.dataset.copy];

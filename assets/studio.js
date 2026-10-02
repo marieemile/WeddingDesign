@@ -207,7 +207,7 @@ T.day = {
   lead:'The timings for the day. Choose pen doodles or the painted border, but not both, because pen line and paint clash.',
   hint:'Print on A5 card at 100%. A timeline can carry one doodle per moment; anywhere else, three is plenty.',
   defaults:{ style:'pen', title:'The day', sub:'Saturday · 5 June 2027', ink:'fern',
-    rows:[{time:'14:30', what:'Guests arrive', note:'chegada dos convidados', d:'casa-vila-verde-sm'},{time:'15:00', what:'Ceremony', note:'cerimónia', d:'rings'},
+    rows:[{time:'14:30', what:'Guests arrive', note:'chegada dos convidados', d:'the-house-sm'},{time:'15:00', what:'Ceremony', note:'cerimónia', d:'rings'},
       {time:'16:00', what:'Drinks & canapés', note:'aperitivos', d:'cheers'},{time:'17:00', what:'Golden-hour photos', note:'fotografias ao fim da tarde', d:'sun'},
       {time:'19:00', what:'Dinner & speeches', note:'jantar e discursos', d:'fork-knife'},{time:'21:00', what:'Cutting the cake', note:'corte do bolo', d:'cake'},
       {time:'21:30', what:'First dance', note:'primeira dança', d:'record-player'},{time:'& then', what:'Party till late', note:'festa até tarde', d:'disco'}],
@@ -241,7 +241,7 @@ T.welcome = {
   name:'Welcome sign', size:[148,210], label:'A-series portrait · scales to A2 or A1',
   lead:'The sign at the gate. It’s designed at A5 and scales cleanly: the wordmark is vector and the painting is high resolution.',
   hint:'For a large sign, save the PDF and ask the printer to scale it to A2 (420 × 594 mm) or A1. The proportions are the same.',
-  defaults:{ art:'venue', eyebrow:'Welcome to the wedding of', logoInk:'rose', names:'', date:'5 June 2027', venue:'Casa Vila Verde · Lousada', hand:'sempre amor em Portugal' },
+  defaults:{ art:'venue', eyebrow:'Welcome to the wedding of', logoInk:'rose', names:'', date:'5 June 2027', venue:'Portugal', hand:'sempre amor em Portugal' },
   fields:[
     {k:'art', t:'opts', l:'Artwork', o:[['venue','Venue watercolour'],['border','Painted border'],['none','Paper only']], help:'No pen doodles on a piece with the venue painting.'},
     {k:'eyebrow', t:'text', l:'Line above'},

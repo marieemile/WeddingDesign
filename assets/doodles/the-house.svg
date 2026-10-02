@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Marie & Andre wedding doodle: Casa Vila Verde
+<!-- Marie & Andre wedding doodle: The house
      Monoline, no fill, one ink. Recolour via the stroke value below.
      Objects: stroke 1.9 on a 100x100 grid (~1.3pt at 25mm).
      Couple figures: stroke 1.5, and 35mm minimum. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Casa Vila Verde">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="The house">
   <g fill="none" stroke="#4A5A3D" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M5 46 L25 29 Q50 21 75 29 L95 46"/>
 <path d="M9 45 Q50 41 91 45"/>
 <path d="M16 40 L20 33"/><path d="M25 38 L28 31"/><path d="M34 36 L36 29"/>

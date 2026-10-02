@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Vila Verde Confirmation Card</title>
+<title>Confirmation Card · Marie’s Dream Wedding</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=WindSong:wght@400;500&display=swap">
 <style>
@@ -192,7 +192,7 @@
       <div id="heart" style="--y:.490">&#9825;</div>
       <p class="block" id="b-date"    style="--y:.534; --track:.26em; font-size:2.35em" data-caps></p>
     </div>
-    <p class="caption" id="caption">Casa de Vila Verde, painted from the avenue &middot; 5&nbsp;&times;&nbsp;7 in</p>
+    <p class="caption" id="caption">The house, painted from the avenue &middot; 5&nbsp;&times;&nbsp;7 in</p>
   </div>
 
   <div class="controls">
@@ -229,8 +229,8 @@
   const DEFAULTS = {
     eyebrow: "You’re confirmed for the wedding of",
     names:   "Marie & André",
-    venue:   "Casa de Vila Verde",
-    place:   "Lousada, Portugal",
+    venue:   "Portugal",
+    place:   "",
     date:    "5th of June 2027"
   };
 
@@ -245,7 +245,7 @@
   const LOGO_Y = .181, LOGO_W = .235, HEART_Y = .490, HEART_SIZE = 3.2, SIDE = .07;
   const INK = {ink:"#4A5A3D", rose:"#DE9687", fern:"#4A5A3D"};
 
-  const STORE = "vilaverde-confirmation-v1";
+  const STORE = "ma-confirmation-v1";
   const $ = id => document.getElementById(id);
   const card = $("card"), statusEl = $("status");
 
