@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&family=WindSong:wght@500&display=swap">
-<link rel="stylesheet" href="assets/system.css">
+<link rel="stylesheet" href="assets/system.css?v=20261002c">
 </head>
 <body>
 
@@ -25,7 +25,7 @@
   <!-- ======================= NAV ======================= -->
   <header class="nav">
     <a class="brand" href="#top"><span class="mk" data-logo></span><b>Marie’s Dream Wedding<small>Design system</small></b></a>
-    <nav><a href="#colour">Colour</a><a href="#type">Type</a><a href="#components">Components</a><a href="#menu">Menu</a><a href="#watercolour">Watercolours</a><a href="#icons">Doodles</a><a href="kit.html">Brand kit</a></nav>
+    <nav><a href="#colour">Colour</a><a href="#components">Components</a><a href="#menu">Menu</a><a href="#day">The day</a><a href="#place">Place cards</a><a href="#watercolour">Paintings</a><a href="kit.html">Brand kit</a></nav>
     <a class="btn sm butter" href="studio.html">Template studio</a>
   </header>
 
@@ -47,7 +47,7 @@
       <div class="shield"><div class="couple" data-dd="couple-heart"></div></div>
       <div class="name-pill">M &amp; A</div>
       <div class="badge-date"><i></i>Save the date · 05.06.27</div>
-      <div class="stk" data-dd="coupe" data-par="1.2" style="width:92px;height:92px;left:-14%;top:4%;background:var(--butter);--r0:-10deg;--r1:-2deg"></div>
+      <div class="stk" data-dd="coupe" data-par="1.2" style="width:86px;height:86px;left:-4%;top:-2%;background:var(--butter);--r0:-10deg;--r1:-2deg"></div>
       <div class="stk round" data-dd="swallows" data-par="-.8" style="width:96px;height:96px;right:-12%;top:30%;background:var(--sage);animation-delay:-2s"></div>
       <div class="stk" data-dd="sardine" data-par="1.6" style="width:84px;height:84px;left:-8%;bottom:6%;background:var(--powder);animation-delay:-3.5s;--r0:6deg;--r1:-4deg"></div>
       <div class="stk round" data-dd="mark-heart" data-par="-1.4" style="width:58px;height:58px;left:22%;top:-8%;background:#FFC4AD;animation-delay:-1s"></div>
@@ -70,11 +70,11 @@
       <p>Cormorant Garamond for display, Jost for everything you read, and WindSong for greetings of four or five words at most.</p></div>
     <div class="card rv" style="padding:10px 28px">
       <div class="trow"><span class="lab">Display</span><span style="font:700 clamp(40px,6vw,76px)/1 var(--serif);letter-spacing:-.02em">Sempre amor</span><span class="spec">Cormorant 700 · 76 / 0.86</span></div>
-      <div class="trow"><span class="lab">Greeting</span><span style="font:500 clamp(44px,6vw,72px)/1.1 var(--script);color:var(--peony)">sempre amor</span><span class="spec">WindSong 500 · ≤ 5 words</span></div>
+      <div class="trow"><span class="lab">Greeting</span><span class="greet" style="font:500 clamp(44px,6vw,72px)/1.1 var(--script)">sempre amor</span><span class="spec">WindSong 500 · ≤ 5 words</span></div>
       <div class="trow"><span class="lab">Heading</span><span style="font:600 36px/1.1 var(--serif)">The weekend, hour by hour</span><span class="spec">Cormorant 600 · 36</span></div>
       <div class="trow"><span class="lab">Italic</span><span style="font:500 italic 28px/1.2 var(--serif)">followed by pastéis de nata</span><span class="spec">Cormorant italic 500 · 28</span></div>
       <div class="trow"><span class="lab">Body</span><span style="font:400 17px/1.6 var(--sans);max-width:56ch">Sharing plates at the long tables, live music through the drinks, and a DJ once it’s dark.</span><span class="spec">Jost 400 · 17 / 1.6</span></div>
-      <div class="trow"><span class="lab">Label</span><span style="font:500 12px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--moss)">Ceremony · 13.30 · 05.06.27</span><span class="spec">Jost 500 caps · +0.24em</span></div>
+      <div class="trow"><span class="lab">Label</span><span style="font:500 12px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--moss)">Ceremony · 15:00 · 05.06.27</span><span class="spec">Jost 500 caps · +0.24em</span></div>
     </div>
   </div></section>
 
@@ -97,7 +97,7 @@
         <div class="brow"><span class="lab">With tooltips · hover me</span>
           <span class="pill s maybe tip" tabindex="0" data-tip="We haven’t heard back from this guest yet.">Waiting</span>
           <span class="pill s yes tip" tabindex="0" data-tip="Confirmed for the ceremony, the drinks and dinner.">Confirmed</span>
-          <span class="pill s tip" tabindex="0" data-tip="Ceremony at 13.30, with the house behind you.">⏰ 13.30</span></div>
+          <span class="pill s tip" tabindex="0" data-tip="Guests arrive at 14:30, and the ceremony starts at 15:00.">⏰ 15:00</span></div>
         <div class="brow" style="margin:0"><span class="lab">Avatars</span>
           <div class="stack" id="stack"></div><span style="font:600 28px/1 var(--serif);margin-left:8px">+108</span></div>
       </div>
@@ -159,7 +159,7 @@
       </div>
       <div class="card rv">
         <div class="alert ok"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="10" r="8"/><path d="M6.5 10.3l2.3 2.2 4.7-5"/></svg><div><b>You’re confirmed!</b> We can’t wait to see you there.</div></div>
-        <div class="alert info"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="10" r="8"/><path d="M10 9v5M10 6.2v.1"/></svg><div>The ceremony starts at <b>13.30</b>, with the house behind us.</div></div>
+        <div class="alert info"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="10" r="8"/><path d="M10 9v5M10 6.2v.1"/></svg><div>The ceremony starts at <b>15:00</b>. Please arrive from 14:30.</div></div>
         <div class="alert warn"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M10 3l8 14H2z"/><path d="M10 8v4M10 14.5v.1"/></svg><div>RSVPs close soon. Let us know about dietary needs.</div></div>
         <div class="alert err" style="margin:0"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="10" cy="10" r="8"/><path d="M7 7l6 6M13 7l-6 6"/></svg><div>That table is full. Pick another one.</div></div>
       </div>
@@ -170,18 +170,18 @@
     <div class="grid g3">
       <div class="card lift rv span2">
         <div class="event"><div class="datebox"><span>June</span><b>5</b></div>
-          <div><span class="k">Saturday · 13.30</span><h3>The ceremony</h3><div class="meta">The address is on your invitation</div>
+          <div><span class="k">Saturday · 15:00</span><h3>The ceremony</h3><div class="meta">The address is on your invitation</div>
             <div class="tags" style="margin-top:10px"><span class="pill flat">Live music</span><span class="pill flat">Officiated by Nicole &amp; Tiago</span></div></div>
           <div class="end"><button class="btn sm blush" data-toast="info">Details</button></div></div>
         <div style="border-top:1.5px dashed rgba(74,90,61,.25);margin:20px 0 16px"></div>
         <div class="bubble"><span class="av" style="background:var(--powder)">G</span><div class="msg"><small>A guest · just now</small>What time should we arrive?</div></div>
-        <div class="bubble me" style="margin-top:12px"><span class="av" style="background:var(--butter);font-size:13px">M&amp;A</span><div class="msg"><small>Marie &amp; André</small>The ceremony starts at 13.30, so come a little early 💛</div></div>
+        <div class="bubble me" style="margin-top:12px"><span class="av" style="background:var(--butter);font-size:13px">M&amp;A</span><div class="msg"><small>Marie &amp; André</small>Arrive from 14:30, and the ceremony is at 15:00 💛</div></div>
         <div class="bubble" style="margin-top:12px"><span class="av" style="background:var(--powder)">G</span><div class="msg" style="padding:14px 18px"><span class="typing"><i></i><i></i><i></i></span></div></div>
       </div>
       <div class="card empty rv"><div class="art" data-dd="dove-letter"></div><h3>No messages yet</h3><p>When guests write to you, their notes land here, as if posted by the dove.</p><button class="btn sm butter" data-toast="info">Send the invites</button></div>
       <div class="card lift rv" style="background:var(--sage)"><span class="k" style="color:var(--fern)">Signature drink · hers</span><h3 style="margin-top:8px">Virgin Strawberry Mojito</h3><p style="margin:8px 0 0;font-size:14.5px">strawberry · mint · lime · soda</p><img src="assets/painted/strawberry-mojito.png" alt="" style="width:120px;margin:12px 0 -8px auto;transform:rotate(6deg)"></div>
       <div class="card lift rv" style="background:var(--butter)"><span class="k" style="color:var(--fern)">Signature drink · his</span><h3 style="margin-top:8px">Basil Smash</h3><p style="margin:8px 0 0;font-size:14.5px">gin · fresh basil · lemon</p><img src="assets/painted/basil-smash.png" alt="" style="width:140px;margin:12px 0 -8px auto;transform:rotate(-5deg)"></div>
-      <div class="card lift rv" style="background:var(--blush)"><span class="k" style="color:var(--fern)">Calendar</span><h3 style="margin-top:8px">Add it to yours</h3><p style="margin:8px 0 14px;font-size:14.5px">Saturday 5 June 2027, from 13.30.</p><button class="btn sm ivory" id="ics">Download .ics</button></div>
+      <div class="card lift rv" style="background:var(--blush)"><span class="k" style="color:var(--fern)">Calendar</span><h3 style="margin-top:8px">Add it to yours</h3><p style="margin:8px 0 14px;font-size:14.5px">Saturday 5 June 2027, from 14:30.</p><button class="btn sm ivory" id="ics">Download .ics</button></div>
     </div>
   </div></section>
 
@@ -213,16 +213,56 @@
     <div class="paints rv" id="paints"></div>
   </div></section>
 
+  <!-- ======================= ORDER OF THE DAY ======================= -->
+  <section id="day"><div class="in">
+    <div class="sh rv"><div class="num">06</div><p class="ey">Fan on every chair</p><h2>The order <em>of the day</em></h2>
+      <p>The shell fan you chose: guests cool down during the ceremony, then keep it as the timeline. It’s one fern ink, in English and Portuguese. Tap the fan to flip it over.</p></div>
+    <div class="day-grid">
+      <div class="fan-stage rv">
+        <button class="fan-flip" id="fanFlip" aria-label="Flip the fan"><div class="fan-in"><div class="fan-face front" id="fanFront"></div><div class="fan-face back" id="fanBack"></div></div></button>
+        <div class="fan-meta"><span class="pill s vip">210 × 225 mm</span><span class="pill s flat">Ivory on sage card</span><span class="pill s flat">Blush silk ribbon</span><button class="btn xs butter" id="fanBtn">Flip it ↻</button></div>
+      </div>
+      <div class="card rv tl-card">
+        <span class="k">The timeline · a cronologia</span>
+        <ol class="tl" id="tl"></ol>
+        <p class="help" style="margin-top:6px">The 21:00 and 21:30 times are still to be confirmed.</p>
+      </div>
+    </div>
+    <div class="sign-row rv">
+      <div class="sign-frame" id="signFrame"></div>
+      <div><span class="k">At the entrance · 50 × 70 cm</span><h3 style="font:600 34px/1.1 var(--serif);margin:8px 0 10px">The welcome sign</h3>
+        <p style="color:var(--soft);margin:0 0 16px">The same timeline, in the look of your menus: warm paper, a painted sprig in each corner, <i>Welcome</i> in WindSong, and every line in Portuguese below in pink italics. There’s no border and there are no pen doodles, so it sits quietly beside the menus. The fans keep the little doodles, so guests still have the pictures in their hands.</p>
+        <div class="tags"><span class="pill flat">Matte or fine-art paper</span><span class="pill flat">Wooden frame or foam board</span><span class="pill flat">Reads at about 4 m</span></div></div></div>
+    </div>
+  </div></section>
+
+  <!-- ======================= PLACE CARDS ======================= -->
+  <section id="place"><div class="in">
+    <div class="sh rv"><div class="num">07</div><p class="ey">A name at every plate</p><h2>The sardine <em>tin</em></h2>
+      <p>Your place card: a sardine tin is already a rectangle, so there’s nothing to cut. It’s 85 × 55 mm, printed ten to a sheet of micro-perforated A4 and snapped apart by hand. The fish are smiling now.</p></div>
+    <div class="tin-grid">
+      <div class="tin-stage rv"><div class="tin-big" id="tinBig"></div></div>
+      <div class="card rv">
+        <div class="fld"><label for="tinName">Guest name</label><div class="inp"><input id="tinName" value="Inês" maxlength="24" autocomplete="off"></div></div>
+        <div class="fld"><label for="tinTable">Table</label><div class="inp" style="max-width:120px"><input id="tinTable" value="3" maxlength="3" inputmode="numeric"></div></div>
+        <div class="fld"><span class="lbl">Ink · one per card</span><div class="tin-inks" id="tinInks"></div><p class="help" id="tinNote"></p></div>
+        <div class="cta-row" style="margin:6px 0 0"><a class="btn sm" href="studio.html#place">Print the whole set</a><button class="btn sm ivory" id="tinMix">Shuffle the colours</button></div>
+      </div>
+    </div>
+    <p class="k rv" style="text-align:center;margin:56px 0 18px">A colour for every guest · one ink per card</p>
+    <div class="tin-row rv" id="tinRow"></div>
+  </div></section>
+
   <!-- ======================= ICONS ======================= -->
   <section id="icons"><div class="in">
-    <div class="sh rv"><div class="num">06</div><p class="ey">Drawn for this wedding</p><h2>Doodles as <em>icons</em></h2>
+    <div class="sh rv"><div class="num">08</div><p class="ey">Drawn for this wedding</p><h2>Doodles as <em>icons</em></h2>
       <p>The monoline doodles work as the icon set. Hover to make one dance, and tap to copy its SVG. The full set of 88 is in the <a href="kit.html#doodles">brand kit</a>.</p></div>
     <div class="icons rv" id="iconGrid"></div>
   </div></section>
 
   <!-- ======================= TOKENS ======================= -->
   <section id="tokens"><div class="in">
-    <div class="sh rv"><div class="num">07</div><p class="ey">The rules underneath</p><h2>Design <em>tokens</em></h2></div>
+    <div class="sh rv"><div class="num">09</div><p class="ey">The rules underneath</p><h2>Design <em>tokens</em></h2></div>
     <div class="tokens">
       <div class="card tok rv"><div class="demo"><i style="border-radius:22px"></i></div><b>Radius</b><code>10 · 16 · 22 · 44 · 99</code><small style="color:var(--soft)">Round everything. Pills for tags, 22 for cards.</small></div>
       <div class="card tok rv"><div class="demo"><i style="border-radius:16px;box-shadow:5px 5px 0 var(--fern)"></i></div><b>Shadow</b><code>3 · 5 · 8 px, 0 blur</code><small style="color:var(--soft)">A hard offset in fern. Never blurred, never black.</small></div>
@@ -240,8 +280,9 @@
 </div>
 
 <div class="toasts" id="toasts" aria-live="polite"></div>
-<script src="data/kit-data.js"></script>
-<script src="data/painted.js"></script>
-<script src="assets/system.js"></script>
+<script src="data/kit-data.js?v=20261002c"></script>
+<script src="data/painted.js?v=20261002c"></script>
+<script src="data/day-art.js?v=20261002c"></script>
+<script src="assets/system.js?v=20261002c"></script>
 </body>
 </html>

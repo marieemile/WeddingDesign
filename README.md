@@ -1,6 +1,6 @@
 # Marie’s Dream Wedding
 
-A static website for Marie & André’s wedding. The home page is the interactive **design system**: colour ramps, type, buttons, tags, the guest list, tabs, forms, toasts, cards, doodle icons and tokens, with animation throughout. Behind it is the **brand kit**, with colour, type, the M & A wordmark, 88 doodles, monograms, the painted watercolour pieces, tee artwork, and a **template studio** for menus, signature drinks, table numbers, place cards, the order of the day and the welcome sign.
+A static website for Marie & André’s wedding. The home page is the interactive **design system**: colour ramps, type, buttons, tags, tabs, forms, toasts, cards, the live menu, the watercolour pieces, the order-of-the-day shell fan and sign, the sardine-tin place cards, doodle icons and tokens, with animation throughout. Behind it is the **brand kit**, with colour, type, the M & A wordmark, 88 doodles, monograms, the painted watercolour pieces, tee artwork, and a **template studio** for menus, signature drinks, table numbers, place cards, the order of the day and the welcome sign.
 
 There is no build step. It's plain HTML, CSS and JS, and it deploys to Vercel as-is.
 
@@ -31,6 +31,7 @@ Push this folder to a repo, then import the repo at vercel.com/new. Every push r
 | `studio.html` | The template studio. Edits are saved in the visitor's own browser |
 | `pages/` | The long-form brand book, the table suite and the confirmation card, as they were |
 | `data/kit-data.js` | Every doodle, the wordmark and the monograms as inline SVG, recoloured through `currentColor` |
+| `data/day-art.js` | The shell fan (front and back), the welcome sign and the sardine-tin place card, as live SVG (venue and shuttle times left out) |
 | `data/painted.js` | Where each painted piece sits on the approved menu cards, as % of the card |
 | `assets/painted/` | The watercolour pieces as transparent PNGs, plus the A5/A6 painted border |
 | `assets/doodles/`, `assets/logo/`, `assets/tees/` | Source SVGs (and tee PNGs) |

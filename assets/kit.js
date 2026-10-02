@@ -207,7 +207,7 @@ const PAINT = [['basil-smash','Basil Smash · his'],['strawberry-mojito','Strawb
  ['lemon-branch','Lemon branch'],['lemon-drop','Hanging lemon'],['lemon-blossom','Lemon & blossom'],['vine-flower','Trailing vine'],['swallow','Swallow'],['swallow-2','Swallow, banking'],
  ['ribbon-bow','Ribbon bow'],['ribbon-tail','Ribbon tail'],['pink-blossom','Pink blossom'],['pink-flower-stem','Flower stem'],['pink-sprig','Pink sprig'],['pink-sprig-small','Small sprig'],
  ['olive-sprig','Olive sprig'],['olives','Olives'],['willow-sprig','Willow leaves'],['herb-sprig','Herb sprig'],['small-sprig','Tiny sprig'],['leaf','Leaf'],['leaf-2','Leaf, long'],
- ['wine-glass','Glass of rosé'],['garlic','Garlic'],['azulejo-tile','Azulejo tile'],['tile-flower','Tile flower'],['basil-doodle','Basil, inked'],['strawberry-doodle','Strawberry, inked'],['border-a5','Painted border · A5 / A6']];
+ ['wine-glass','Glass of rosé'],['garlic','Garlic'],['azulejo-tile','Azulejo tile'],['tile-flower','Tile flower'],['border-a5','Painted border · A5 / A6']];
 $('#paint').innerHTML = PAINT.map(([k, n]) => `<a class="pt reveal" href="assets/painted/${k}.png" download="${k}.png" title="Download ${n}" style="text-decoration:none${k==='border-a5'?';grid-column:span 2':''}"><div class="im"><img src="assets/painted/${k}.png" alt="${n}" loading="lazy"></div><span>${n}</span></a>`).join('');
 
 /* ---------------- tables ---------------- */

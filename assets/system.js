@@ -14,8 +14,8 @@ $$('[data-dd-i]').forEach(el => {
   if (el.tagName === 'SPAN' && !el.className) el.outerHTML = d.svg; else el.innerHTML = d.svg;
 });
 
-/* ---------- countdown to 13.30 Lisbon time (WEST, UTC+1) ---------- */
-const T0 = Date.UTC(2027, 5, 5, 12, 30);
+/* ---------- countdown to the 15:00 ceremony, Lisbon time (WEST, UTC+1) ---------- */
+const T0 = Date.UTC(2027, 5, 5, 14, 0);
 const pad = (n, l = 2) => String(n).padStart(l, '0');
 function tick(){
   let s = Math.max(0, Math.floor((T0 - Date.now()) / 1000));
@@ -99,10 +99,10 @@ $('#stack').innerHTML = PARTY.map(([n,, c]) => `<span class="av" style="backgrou
 
 /* ---------- segmented tabs ---------- */
 const DAY = [
-  ['rings','#F4B6C8','13.30','The ceremony','In front of the house, with the venue behind us. Nicole and Tiago officiate together, and live music plays us down the aisle and back.'],
-  ['cheers','#FFD76A','Afterwards','Drinks & canapés','The band plays straight through the drinks hour, and the signature drinks are on the bar.'],
-  ['fork-knife','#A8C29E','Evening','Dinner','Sharing plates at the long tables: starters, mains, dessert, then the wedding cake.'],
-  ['disco','#B8D5F3','After dark','The party','The DJ takes over for the first dance, then the rest of the night.']];
+  ['rings','#F4B6C8','15:00','The ceremony','Guests arrive from 14:30. We stand in front of the house, Nicole and Tiago officiate together, and live music plays us down the aisle and back.'],
+  ['cheers','#FFD76A','16:00','Drinks & canapés','The band plays straight through the drinks hour, then it’s golden-hour photos at 17:00.'],
+  ['fork-knife','#A8C29E','19:00','Dinner & speeches','Sharing plates at the long tables, with the speeches during dinner.'],
+  ['disco','#B8D5F3','21:00','Cake, first dance & party','We cut the cake, then the first dance, and the DJ keeps going till late.']];
 function seg(el, onPick){
   const ind = $('.ind', el);
   const place = b => { ind.style.left = b.offsetLeft + 'px'; ind.style.width = b.offsetWidth + 'px'; };
@@ -157,8 +157,49 @@ drawText(); drawArt(); addEventListener('resize', fitMenu); document.fonts && do
 const PAINT = [['basil-smash','Basil Smash'],['strawberry-mojito','Strawberry Mojito'],['lemon-branch','Lemon branch'],['lemon-drop','Hanging lemon'],['lemon-blossom','Lemon & blossom'],
   ['swallow','Swallow'],['swallow-2','Swallow, banking'],['ribbon-bow','Ribbon bow'],['ribbon-tail','Ribbon tail'],['pink-blossom','Pink blossom'],['pink-flower-stem','Flower stem'],
   ['pink-sprig','Pink sprig'],['olive-sprig','Olive sprig'],['olives','Olives'],['willow-sprig','Willow leaves'],['herb-sprig','Herb sprig'],['wine-glass','Glass of rosé'],
-  ['garlic','Garlic'],['azulejo-tile','Azulejo tile'],['tile-flower','Tile flower'],['vine-flower','Trailing vine'],['menu-lettering','“Menu”, painted'],['basil-doodle','Basil, inked'],['strawberry-doodle','Strawberry, inked']];
+  ['garlic','Garlic'],['azulejo-tile','Azulejo tile'],['tile-flower','Tile flower'],['vine-flower','Trailing vine'],['menu-lettering','“Menu”, painted']];
 $('#paints').innerHTML = PAINT.map(([k, n]) => `<a class="paint${['ribbon-bow','vine-flower','menu-lettering'].includes(k) ? ' wide' : ''}" href="assets/painted/${k}.png" download="${k}.png" title="Download ${n}"><div class="im"><img src="assets/painted/${k}.png" alt="${n}" loading="lazy"></div><span>${n}</span></a>`).join('');
+
+/* ---------- order of the day: the shell fan + timeline + sign ---------- */
+const DA = window.DAYART;
+if (DA) {
+  document.body.insertAdjacentHTML('afterbegin', DA.sprite);
+  ['fanFront','fanBack','signFrame'].forEach(id => $('#' + id).classList.add('paper-art'));
+  $('#fanFront').innerHTML = DA.front; $('#fanBack').innerHTML = DA.back; $('#signFrame').innerHTML = DA.sign;
+  const flip = () => $('#fanFlip').classList.toggle('flipped');
+  $('#fanFlip').addEventListener('click', flip); $('#fanBtn').addEventListener('click', flip);
+  const TL = [['14:30','casa-vila-verde-sm','Guests arrive','Chegada dos convidados'],['15:00','rings','Ceremony','Cerimónia'],['16:00','cheers','Drinks & canapés','Aperitivos'],
+    ['17:00','sun','Golden-hour photos','Fotografias ao fim da tarde'],['19:00','fork-knife','Dinner & speeches','Jantar e discursos'],['21:00','cake','Cutting the cake','Corte do bolo',1],
+    ['21:30','record-player','First dance','Primeira dança',1],['& then','disco','Party till late','Festa até tarde']];
+  $('#tl').innerHTML = TL.map(([t, d, en, pt, tbc]) => `<li><span class="t">${t}</span><span class="d">${DD[d] ? DD[d].svg : ''}</span><span><b>${en}${tbc ? '<span class="tbc">TBC</span>' : ''}</b><small>${pt}</small></span></li>`).join('');
+  // walk the timeline once when it comes into view
+  const tlo = new IntersectionObserver(es => { if (!es[0].isIntersecting || reduce) return; tlo.disconnect();
+    $$('#tl li').forEach((li, i) => { setTimeout(() => li.classList.add('on'), i * 260); setTimeout(() => li.classList.remove('on'), i * 260 + 520); }); }, { threshold:.5 });
+  tlo.observe($('#tl'));
+
+  /* ---------- the sardine tin place card ---------- */
+  const INKS = [['red','Wedding Red','#CB484D','The red from the tees and the kissing sardines. 4.4 : 1 on ivory card.'],['peony','Peony','#D86AA5','The brightest and most romantic. 3.1 : 1.'],
+    ['fern','Evening Fern','#4A5A3D','The brand ink, and the crispest for names. 7.2 : 1.'],['moss','Moss','#889063','A soft olive beside the sage table numbers. 3.3 : 1.'],['grape','Grape Fizz','#3F0013','Near-black burgundy, like a vintage tin label. 16.6 : 1.']];
+  let tinInk = 'red', uid = 0;
+  const tinSvg = (ink, name, table) => DA.tin.replace(/__ID__/g, 't' + (uid++)).replace(/__INK__/g, ink)
+    .replace('__NAME__', String(name).replace(/[<>&]/g, '')).replace('__TABLE__', String(table).replace(/[<>&]/g, ''));
+  const fitName = root => $$('text.nm', root).forEach(t => { const max = +t.dataset.max, sz = +t.dataset.size; t.setAttribute('font-size', sz);
+    try { const w = t.getComputedTextLength(); if (w > max) t.setAttribute('font-size', (sz * max / w).toFixed(2)); } catch (e) {} });
+  const drawTin = () => { const ink = INKS.find(i => i[0] === tinInk); $('#tinBig').innerHTML = tinSvg(ink[2], $('#tinName').value.trim() || 'Guest', $('#tinTable').value.trim());
+    fitName($('#tinBig')); $('#tinNote').textContent = ink[3]; };
+  $('#tinInks').innerHTML = INKS.map(([k, n, h]) => `<button data-ink="${k}" class="${k === tinInk ? 'on' : ''}"><i style="background:${h}"></i>${n}</button>`).join('');
+  $('#tinInks').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; tinInk = b.dataset.ink; $$('#tinInks button').forEach(x => x.classList.toggle('on', x === b)); drawTin(); });
+  $('#tinName').addEventListener('input', drawTin); $('#tinTable').addEventListener('input', drawTin);
+  const MIXN = [['Inês','1'],['Pieter','2'],['Margarida','3'],['Wout','4']];
+  const drawRow = (shuffle) => {
+    const order = shuffle ? INKS.slice().sort(() => Math.random() - .5) : INKS;
+    $('#tinRow').innerHTML = MIXN.map(([n, t], i) => `<div class="${shuffle ? 'pop' : ''}" style="animation-delay:${i * 70}ms">${tinSvg(order[i % order.length][2], n, t)}</div>`).join('');
+    fitName($('#tinRow'));
+  };
+  $('#tinMix').addEventListener('click', () => drawRow(true));
+  drawTin(); drawRow(false);
+  document.fonts && document.fonts.ready.then(() => { fitName($('#tinBig')); fitName($('#tinRow')); });
+}
 
 /* ---------- chip input ---------- */
 const chips = $('#chips'), inv = $('#inv');
@@ -192,10 +233,10 @@ $('#iconGrid').addEventListener('click', e => {
 /* ---------- calendar file ---------- */
 $('#ics').addEventListener('click', () => {
   const ics = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Marie and Andre//Dream Wedding//EN','BEGIN:VEVENT','UID:marie-andre-20270605@dream-wedding',
-    'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z','DTSTART:20270605T123000Z','DTEND:20270605T230000Z',
-    'SUMMARY:Marie & André’s wedding','DESCRIPTION:Ceremony at 13.30. The address is on your invitation.','END:VEVENT','END:VCALENDAR'].join('\r\n');
+    'DTSTAMP:' + new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z','DTSTART:20270605T133000Z','DTEND:20270605T230000Z',
+    'SUMMARY:Marie & André’s wedding','DESCRIPTION:Guests arrive at 14:30\\, ceremony at 15:00. The address is on your invitation.','END:VEVENT','END:VCALENDAR'].join('\r\n');
   const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([ics], { type:'text/calendar' })); a.download = 'marie-andre-wedding.ics'; a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 800); toast('ok', 'Saved to your calendar', 'Saturday 5 June 2027, from 13.30.');
+  setTimeout(() => URL.revokeObjectURL(a.href), 800); toast('ok', 'Saved to your calendar', 'Saturday 5 June 2027, from 14:30.');
 });
 
 /* ---------- motion token demo ---------- */

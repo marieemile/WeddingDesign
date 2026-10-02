@@ -7,8 +7,8 @@ const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 const toast = t => { const e = $('#toast'); e.textContent = t; e.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => e.classList.remove('on'), 1900); };
 $$('[data-logo]').forEach(el => el.innerHTML = K.logo);
 
-const INK = { fern:'#4A5A3D', peony:'#D86AA5', rose:'#DE9687', coral:'#FF8A5C', moss:'#889063', swallow:'#7C9FD4', red:'#CB484D', ivory:'#FAF7F2', brass:'#B08D4F' };
-const INKNAME = { fern:'Evening Fern', peony:'Peony Pink', rose:'Antique Rose', coral:'Coral', moss:'Moss', swallow:'Swallow Blue', red:'Wedding Red', ivory:'Ivory', brass:'Antique Brass' };
+const INK = { grape:'#3F0013', fern:'#4A5A3D', peony:'#D86AA5', rose:'#DE9687', coral:'#FF8A5C', moss:'#889063', swallow:'#7C9FD4', red:'#CB484D', ivory:'#FAF7F2', brass:'#B08D4F' };
+const INKNAME = { grape:'Grape Fizz', fern:'Evening Fern', peony:'Peony Pink', rose:'Antique Rose', coral:'Coral', moss:'Moss', swallow:'Swallow Blue', red:'Wedding Red', ivory:'Ivory', brass:'Antique Brass' };
 const PINKT = '#D98096', SOFT = '#6B7660', MOSS = '#889063';
 const DOODLES = K.groups.flatMap(g => g.items.map(i => ({...i, group:g.name})));
 const doodle = slug => DOODLES.find(d => d.slug === slug);
@@ -158,17 +158,18 @@ T.table = {
 /* ---------------- PLACE CARDS ---------------- */
 const PC_DOODLES = DOODLES.filter(d => !d.traced && !d.slug.startsWith('frame'));
 T.place = {
-  name:'Place cards', size:[210,297], label:'A4 sheet · 10 cards of 90 × 55 mm',
-  lead:'Type everyone’s name once and the studio lays them out ten to a sheet of A4, with crop marks. Write the table after a comma.',
-  hint:'Print on A4 card at 100%, then cut along the marks. Each card is 90 × 55 mm.',
-  defaults:{ names:'Maxence, 1\nDavid, 1\nChiara, 2\nRenee, 2\nNicole, 3\nTiago, 3', doodle:'sardine', ink:'fern', layout:'side', tableWord:'Table', wash:true },
+  name:'Place cards', size:[210,297], label:'A4 sheet · 10 cards of 85 × 55 mm',
+  lead:'Your sardine tin, or a doodle card. Type everyone’s name once, write the table after a comma, and the studio lays them out ten to a sheet of A4.',
+  hint:'Print at 100% on A4 micro-perforated business-card sheets (ten 85 × 55 mm cards, about 250 gsm), then snap them apart. No scissors needed.',
+  defaults:{ names:'Maxence, 1\nDavid, 1\nChiara, 2\nRenee, 2\nNicole, 3\nTiago, 3', doodle:'sardine', ink:'red', layout:'tin', hello:'Olá', tableWord:'Table', wash:true },
   fields:[
     {k:'names', t:'area', l:'Guests', help:'One per line, as “Name, table number”. Leave the table off to print the name only.', rows:9},
-    {k:'tableWord', t:'text', l:'Word before the number', help:'“Table”, “Mesa”, or leave it empty for the number alone.'},
-    {k:'layout', t:'opts', l:'Layout', o:[['side','Doodle beside'],['top','Doodle above'],['none','Name only']]},
-    {k:'doodle', t:'select', l:'Doodle', o:PC_DOODLES.map(d => [d.slug, d.group + ' · ' + d.cap]), when:s => s.layout !== 'none'},
-    {k:'ink', t:'ink', l:'Ink (one per sheet)', o:['fern','coral','peony','swallow','rose','moss']},
-    {k:'wash', t:'toggle', l:'Colour wash behind the doodle', when:s => s.layout !== 'none'}],
+    {k:'layout', t:'opts', l:'Design', o:[['tin','Sardine tin'],['side','Doodle beside'],['top','Doodle above'],['none','Name only']]},
+    {k:'hello', t:'text', l:'Greeting on the tin', help:'“Olá” reads the same to both families.', when:s => s.layout === 'tin'},
+    {k:'tableWord', t:'text', l:'Word before the number', help:'“Table”, “Mesa”, or leave it empty for the number alone.', when:s => s.layout !== 'tin'},
+    {k:'doodle', t:'select', l:'Doodle', o:PC_DOODLES.map(d => [d.slug, d.group + ' · ' + d.cap]), when:s => s.layout !== 'none' && s.layout !== 'tin'},
+    {k:'ink', t:'ink', l:'Ink (one per card)', o:['red','peony','fern','moss','grape'], help:'Wedding Red is the pick: it ties to the tees. Terra Cotta and Coral are too faint for thin script names.'},
+    {k:'wash', t:'toggle', l:'Colour wash behind the doodle', when:s => s.layout === 'side' || s.layout === 'top'}],
   render(s){
     const list = String(s.names).split('\n').map(x => x.trim()).filter(Boolean).map(x => { const i = x.lastIndexOf(','); return i > 0 ? [x.slice(0, i).trim(), x.slice(i + 1).trim()] : [x, '']; });
     if (!list.length) list.push(['Guest name', '1']);
@@ -177,23 +178,26 @@ T.place = {
     const art = sz => s.layout === 'none' ? '' : `<div class="doo" style="position:relative;width:${sz}mm;height:${sz}mm;color:${col};flex:none">${s.wash ? `<i style="position:absolute;inset:18% 12% 14% 22%;border-radius:46% 54% 50% 50%/56% 44% 56% 44%;background:${washC};opacity:.55;transform:translate(5%,6%) rotate(-8deg)"></i>` : ''}<div style="position:relative;width:100%;height:100%">${d.svg}</div></div>`;
     const tbl = t => t ? `<div class="t-caps" style="font-size:6.4pt;letter-spacing:.34em;text-indent:.34em;color:${MOSS};margin-top:1.4mm">${esc(s.tableWord ? s.tableWord + ' ' : '')}${esc(t)}</div>` : '';
     const nm = n => `<div class="t-hand" data-name style="font-size:27pt;line-height:1.15;color:${col};white-space:nowrap">${esc(n)}</div>`;
-    const cardHtml = ([n, t]) => s.layout === 'side'
+    let uid = 0;
+    const tin = ([n, t]) => window.DAYART.tin.replace(/__ID__/g, 'pc' + (uid++)).replace(/__INK__/g, col).replace('__NAME__', esc(n)).replace('__TABLE__', esc(t)).replace('>Olá</text>', '>' + esc(s.hello) + '</text>').replace('<svg ', '<svg style="width:100%;height:100%;display:block" ');
+    const cardHtml = ([n, t]) => s.layout === 'tin' && window.DAYART ? tin([n, t]) : s.layout === 'side'
       ? `<div style="display:flex;align-items:center;gap:4mm;padding:0 7mm 0 6mm;height:100%">${art(30)}<div style="flex:1;min-width:0;text-align:center">${nm(n)}${tbl(t)}</div></div>`
       : `<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:3mm 6mm;text-align:center">${s.layout === 'top' ? art(19) : ''}${nm(n)}${tbl(t)}</div>`;
     const pages = [];
     for (let p = 0; p < list.length; p += 10) {
       const cells = list.slice(p, p + 10).map((g, i) => {
-        const x = 15 + (i % 2) * 90, y = 11 + Math.floor(i / 2) * 55;
-        return `<div style="position:absolute;left:${x}mm;top:${y}mm;width:90mm;height:55mm" data-card>${cardHtml(g)}</div>`;
+        const x = 20 + (i % 2) * 85, y = 11 + Math.floor(i / 2) * 55;
+        return `<div style="position:absolute;left:${x}mm;top:${y}mm;width:85mm;height:55mm;overflow:hidden" data-card>${cardHtml(g)}</div>`;
       }).join('');
       const marks = [];
-      for (const x of [15, 105, 195]) marks.push(`<i style="position:absolute;left:${x}mm;top:4mm;width:.15mm;height:5mm;background:#4A5A3D"></i><i style="position:absolute;left:${x}mm;bottom:4mm;width:.15mm;height:5mm;background:#4A5A3D"></i>`);
+      for (const x of [20, 105, 190]) marks.push(`<i style="position:absolute;left:${x}mm;top:4mm;width:.15mm;height:5mm;background:#4A5A3D"></i><i style="position:absolute;left:${x}mm;bottom:4mm;width:.15mm;height:5mm;background:#4A5A3D"></i>`);
       for (let r = 0; r <= 5; r++) { const y = 11 + r * 55; marks.push(`<i style="position:absolute;top:${y}mm;left:6mm;height:.15mm;width:6mm;background:#4A5A3D"></i><i style="position:absolute;top:${y}mm;right:6mm;height:.15mm;width:6mm;background:#4A5A3D"></i>`); }
       pages.push(`<div class="sheet" style="width:210mm;height:297mm">${marks.join('')}${cells}</div>`);
     }
     return pages.join('');
   },
-  after(root){ $$('[data-name]', root).forEach(el => { const max = el.parentElement.clientWidth; let f = 27; while (el.scrollWidth > max && f > 12) { f -= 1; el.style.fontSize = f + 'pt'; } }); }
+  after(root){ $$('text.nm', root).forEach(t => { const max = +t.dataset.max, sz = +t.dataset.size; t.setAttribute('font-size', sz); try { const w = t.getComputedTextLength(); if (w > max) t.setAttribute('font-size', (sz * max / w).toFixed(2)); } catch (e) {} });
+    $$('[data-name]', root).forEach(el => { const max = el.parentElement.clientWidth; let f = 27; while (el.scrollWidth > max && f > 12) { f -= 1; el.style.fontSize = f + 'pt'; } }); }
 };
 
 /* ---------------- ORDER OF THE DAY ---------------- */
@@ -201,19 +205,21 @@ const DAY_DOODLES = [['', 'No doodle'], ...DOODLES.filter(d => !d.traced).map(d 
 T.day = {
   name:'Order of the day', size:[148,210], label:'A5 · 148 × 210 mm',
   lead:'The timings for the day. Choose pen doodles or the painted border, but not both, because pen line and paint clash.',
-  hint:'Print on A5 card at 100%. Three doodles on a piece is plenty, and six is too many.',
+  hint:'Print on A5 card at 100%. A timeline can carry one doodle per moment; anywhere else, three is plenty.',
   defaults:{ style:'pen', title:'The day', sub:'Saturday · 5 June 2027', ink:'fern',
-    rows:[{time:'13.30', what:'Ceremony', note:'in front of the house', d:'rings'},{time:'14.30', what:'Drinks & canapés', note:'live music on the lawn', d:'cheers'},
-      {time:'17.00', what:'Dinner', note:'at the long tables', d:'fork-knife'},{time:'21.30', what:'First dance', note:'', d:''},{time:'22.00', what:'Dancing', note:'until late', d:''}],
-    footer:'Casa Vila Verde · Lousada' },
+    rows:[{time:'14:30', what:'Guests arrive', note:'chegada dos convidados', d:'casa-vila-verde-sm'},{time:'15:00', what:'Ceremony', note:'cerimónia', d:'rings'},
+      {time:'16:00', what:'Drinks & canapés', note:'aperitivos', d:'cheers'},{time:'17:00', what:'Golden-hour photos', note:'fotografias ao fim da tarde', d:'sun'},
+      {time:'19:00', what:'Dinner & speeches', note:'jantar e discursos', d:'fork-knife'},{time:'21:00', what:'Cutting the cake', note:'corte do bolo', d:'cake'},
+      {time:'21:30', what:'First dance', note:'primeira dança', d:'record-player'},{time:'& then', what:'Party till late', note:'festa até tarde', d:'disco'}],
+    footer:'Marie & André · 5 . 6 . 2027' },
   fields:[
     {k:'style', t:'opts', l:'Style', o:[['pen','Pen doodles'],['painted','Painted border']]},
     {k:'title', t:'text', l:'Title (WindSong)'},{k:'sub', t:'text', l:'Date line'},
     {k:'ink', t:'ink', l:'Ink', o:['fern','coral','peony','swallow','rose']},
-    {k:'rows', t:'list', l:'Timings', item:'Moment', max:9, blank:{time:'00.00', what:'Moment', note:'', d:''},
+    {k:'rows', t:'list', l:'Timings', item:'Moment', max:9, blank:{time:'00:00', what:'Moment', note:'', d:''},
       sub:[{k:'time', t:'text', l:'Time'},{k:'what', t:'text', l:'What'},{k:'note', t:'text', l:'Note'},{k:'d', t:'select', l:'Doodle', o:DAY_DOODLES, when:s => s.style === 'pen'}]},
     {k:'footer', t:'text', l:'Footer'}],
-  warn(s){ const n = s.style === 'pen' ? s.rows.filter(r => r.d).length : 0; return n > 3 ? `${n} doodles on one card. Three is plenty, and six is too many.` : ''; },
+  warn(s){ const n = s.style === 'pen' ? s.rows.filter(r => r.d).length : 0; return n > s.rows.length ? 'More doodles than moments.' : ''; },
   render(s){
     const col = INK[s.ink], pen = s.style === 'pen';
     const art = pen ? '' : border() + sp('pink-blossom', 8.5, 5.5, 12) + sp('lemon-blossom', 76, 79, 14);
@@ -262,7 +268,7 @@ T.welcome = {
 };
 
 /* ================================================================ state */
-const KEY = 'ma-studio-v1';
+const KEY = 'ma-studio-v2';
 let store = {};
 try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
 const clone = o => JSON.parse(JSON.stringify(o));

@@ -394,3 +394,72 @@ h1.big .line:nth-child(2)>span.dream{animation:rise .9s var(--ease) .12s forward
 .lead b{color:var(--fern);font-weight:600;background:var(--butter);padding:0 .3em;border-radius:6px;border:1.5px solid var(--fern)}
 @media(max-width:560px){h1.big .dream{-webkit-text-stroke:1.8px var(--fern);text-shadow:4px 4px 0 var(--fern)}}
 h1.big .dreamline{margin-bottom:.14em}
+
+/* blush is the primary pink: DREAM is filled blush, outlined and shadowed in fern.
+   Thin script can't be blush (it vanishes on ivory), so it's fern ink over a blush wash. */
+h1.big .dream{color:var(--blush)}
+.sh h2 em{color:var(--fern);background:linear-gradient(transparent 52%,rgba(244,182,200,.85) 52%,rgba(244,182,200,.85) 88%,transparent 88%);padding:0 .12em;border-radius:4px}
+.trow .greet{color:var(--fern)!important;background:linear-gradient(transparent 55%,rgba(244,182,200,.8) 55%,rgba(244,182,200,.8) 90%,transparent 90%)}
+
+/* ---------- paper art (fan, sign) — same tokens as the proposal sheets ---------- */
+.paper-art{--f-paper:#FFFDF9;--f-ink:#4A5A3D;--f-sage:#A8C29E;--f-blush:#F4B6C8;--f-blush2:#EFA3B9;--f-butter:#FFD76A;--f-powder:#B8D5F3;--f-wood:#D9B98C;--f-wood2:#B8935F;--f-edge:#E8E2D6;--f-menu:#F4EDE3;--f-moss:#889063;--f-pink:#D98096;--f-pinkdot:#D98096;
+  --display:"Cormorant Garamond",Garamond,serif;--body:"Jost",system-ui,sans-serif}
+.paper-art svg text{fill:var(--f-ink);text-anchor:middle}
+.paper-art svg text.e{text-anchor:end}.paper-art svg text.s{text-anchor:start}
+.paper-art .t-script{font-family:"WindSong",cursive;font-weight:500}
+.paper-art .t-display{font-family:var(--display);font-weight:500}
+.paper-art .t-caps{font-family:var(--body);font-weight:400;text-transform:uppercase}
+.paper-art .t-it{font-family:var(--display);font-style:italic;font-weight:500;opacity:.85}
+.paper-art .t-num{font-family:var(--body);font-weight:300;font-variant-numeric:tabular-nums;letter-spacing:.04em}
+
+/* order of the day */
+.day-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:34px;align-items:center}
+@media(max-width:900px){.day-grid{grid-template-columns:1fr}}
+.fan-stage{display:flex;flex-direction:column;align-items:center;gap:18px}
+.fan-flip{border:0;background:none;padding:0;width:min(100%,500px);aspect-ratio:220/236;perspective:1400px;cursor:pointer}
+.fan-in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .9s var(--ease)}
+.fan-flip.flipped .fan-in{transform:rotateY(180deg)}
+.fan-flip:hover .fan-in{animation:fanwave 1.6s ease-in-out}
+.fan-flip.flipped:hover .fan-in{animation:none}
+@keyframes fanwave{0%,100%{transform:rotate(0)}30%{transform:rotate(-4deg)}65%{transform:rotate(3deg)}}
+.fan-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;filter:drop-shadow(5px 6px 0 rgba(74,90,61,.9))}
+.fan-face svg{width:100%;height:100%}
+.fan-face.back{transform:rotateY(180deg)}
+.fan-meta{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center}
+.tl{list-style:none;margin:16px 0 0;padding:0;position:relative}
+.tl::before{content:"";position:absolute;left:83px;top:10px;bottom:10px;width:2px;background:repeating-linear-gradient(var(--sage) 0 7px,transparent 7px 12px)}
+.tl li{display:grid;grid-template-columns:62px 44px 1fr;align-items:center;gap:0 12px;padding:8px 6px;border-radius:14px;cursor:default;transition:background .2s,transform .3s var(--ease)}
+.tl li:hover,.tl li.on{background:var(--paper);transform:translateX(4px)}
+.tl .t{font:400 17px/1 var(--sans);text-align:right;font-variant-numeric:tabular-nums}
+.tl .d{width:44px;height:44px;border-radius:50%;border:2px solid var(--fern);background:var(--ivory);display:grid;place-items:center;position:relative;z-index:1;transition:transform .35s var(--ease),background .2s}
+.tl .d svg{width:76%;height:76%}
+.tl li:hover .d,.tl li.on .d{transform:rotate(-10deg) scale(1.12);background:var(--blush)}
+.tl b{display:block;font:600 19px/1.15 var(--serif)}
+.tl small{display:block;font:italic 500 14px/1.2 var(--serif);color:var(--soft)}
+.tl .tbc{font:500 9.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;background:var(--butter);border:1.4px solid var(--fern);border-radius:99px;padding:3px 6px 2px;margin-left:6px;vertical-align:2px}
+.sign-row{display:grid;grid-template-columns:minmax(0,400px) 1fr;gap:44px;align-items:center;margin-top:70px}
+@media(max-width:800px){.sign-row{grid-template-columns:1fr}}
+.sign-frame{border:var(--line);box-shadow:var(--sh-l);border-radius:6px;padding:12px;background:#D9B98C;transform:rotate(-1.5deg);transition:transform .5s var(--ease)}
+.sign-frame:hover{transform:rotate(0) scale(1.03)}
+.sign-frame svg{width:100%;height:auto;display:block;border:2px solid var(--fern-2)}
+
+/* place cards */
+.tin-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:34px;align-items:center}
+@media(max-width:900px){.tin-grid{grid-template-columns:1fr}}
+.tin-stage{background:var(--paper) url(paper.jpg);border:var(--line);border-radius:var(--r);box-shadow:var(--sh);padding:clamp(22px,5vw,56px);display:grid;place-items:center;min-height:300px}
+.tin-big{width:min(100%,520px);transform:rotate(-2deg);transition:transform .5s var(--ease)}
+.tin-big:hover{transform:rotate(0) scale(1.02)}
+.tin-big svg,.tin-row svg{width:100%;height:auto;display:block;border-radius:3px;box-shadow:0 18px 34px -18px rgba(50,50,30,.6),0 1px 3px rgba(0,0,0,.08)}
+.tin-inks{display:flex;flex-wrap:wrap;gap:10px}
+.tin-inks button{display:flex;align-items:center;gap:8px;border:1.8px solid var(--fern);border-radius:99px;padding:6px 12px 6px 6px;background:var(--ivory);font:500 13px/1 var(--sans);transition:transform .25s var(--ease),box-shadow .2s}
+.tin-inks button i{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--fern)}
+.tin-inks button.on{box-shadow:var(--sh-s);transform:translate(-2px,-2px);background:var(--paper)}
+.tin-row{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+@media(max-width:800px){.tin-row{grid-template-columns:repeat(2,1fr)}}
+.tin-row>div{transition:transform .45s var(--ease)}
+.tin-row>div:nth-child(odd){transform:rotate(-2.5deg)}.tin-row>div:nth-child(even){transform:rotate(2deg) translateY(10px)}
+.tin-row>div:hover{transform:rotate(0) translateY(-8px) scale(1.04)}
+.tin-row .pop{animation:pop .45s var(--ease)}
+.nav nav a{padding:10px 11px}
+@media(max-width:1100px){.nav nav{display:none}}
+.fan-face{filter:none}.fan-face svg{filter:drop-shadow(5px 6px 0 rgba(74,90,61,.9))}
